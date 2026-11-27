@@ -411,9 +411,9 @@ select,input{background:light-dark(rgb(255 255 255/.6),rgb(5 8 22/.42))!importan
 <footer class="band foot"><div class="wrap">Rarity tiers are editorial estimates of how often people name each answer. Scripture details follow common English translations; verse text is quoted from the King James Version (public domain); worship song lists checked against artist discographies to November 2026. Your streak and best scores are saved only in this browser.<p class="credit">This Game is created By: Aloysius Lee Jian Xi via Ai just for fun</p></div></footer>
 <div id="grow" role="dialog" aria-label="Your tree grew" hidden></div><div id="rays" aria-hidden="true"></div><div id="cpop" aria-hidden="true"></div><div class="deco" id="deco" aria-hidden="true" hidden></div><canvas id="fx" aria-hidden="true"></canvas><div id="flash" aria-hidden="true"></div>
 <script>window.GN_FIREBASE={"apiKey": "AIzaSyBDFR42M3I8JmpVYx52y4lBVN57CvUw4ok", "authDomain": "chokmah-garden.firebaseapp.com", "databaseURL": "https://chokmah-garden-default-rtdb.asia-southeast1.firebasedatabase.app", "projectId": "chokmah-garden", "storageBucket": "chokmah-garden.firebasestorage.app", "messagingSenderId": "868718706390", "appId": "1:868718706390:web:de0744340b2bdcf0df5377"};</script>
-<script src="room.js"></script>
-<script src="data.js"></script>
-<script src="engine.js"></script>
+<script src="room.js?v=362dac8112"></script>
+<script src="data.js?v=a34a9e31c3"></script>
+<script src="engine.js?v=2db83e246f"></script>
 <script>
 {
 const $=id=>document.getElementById(id);
@@ -868,7 +868,7 @@ const MP=(()=>{
  async function enter(c,creating){
   const n=nm();if(!n){msg('Type your name first.');$('mpName').focus();return}
   if(!R)return;st.set('mpName',n);msg('Joining room '+c+'…');
-  try{room=await R.join('gnosis-'+c.toLowerCase())}catch(e){room=null;return msg(e&&e.code==='limit_reached'?'Too many rooms open — try again in a moment.':(e&&e.detail?'Couldn’t open that room. '+e.detail:'Couldn’t open that room. Check your connection and try again.'))}
+  try{room=await Promise.race([R.join('gnosis-'+c.toLowerCase()),new Promise((_,rej)=>setTimeout(()=>rej({code:'timeout',detail:'The game server didn’t answer. Close this tab, reopen the link and try again; if it keeps happening, the live database needs checking.'}),15000))])}catch(e){room=null;return msg(e&&e.code==='limit_reached'?'Too many rooms open — try again in a moment.':(e&&e.detail?'Couldn’t open that room. '+e.detail:'Couldn’t open that room. Check your connection and try again.'))}
   code=c;host=false;lastG=null;lastId=null;M=null;joinedAt=Date.now();
   const taken=new Set(players().map(p=>p.presence.c));
   me={v:1,j:Date.now(),s:(Math.random()*2147483647)|0,ts:[],nm:n,c:COLS.find(x=>!taken.has(x))||COLS[Math.floor(Math.random()*COLS.length)],sc:0,r:-1,d:0,t:0,h:0,g:null};

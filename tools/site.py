@@ -31,5 +31,11 @@ D_ = '<script src="data.js"></script>'
 assert src.count(T) == 1 and src.count(D_) == 1, 'unexpected index.html layout'
 src = src.replace(T, T + '\n' + meta)
 src = src.replace(D_, f'<script>window.GN_FIREBASE={json.dumps(CFG)};</script>\n<script src="room.js"></script>\n' + D_)
+# Cache-busting: browsers (Safari especially) keep old copies of these files for up to 10 minutes otherwise.
+import hashlib, os
+for f in ('room.js', 'data.js', 'engine.js'):
+    if os.path.exists(f):
+        h = hashlib.sha256(open(f, 'rb').read()).hexdigest()[:10]
+        src = src.replace(f'<script src="{f}"></script>', f'<script src="{f}?v={h}"></script>')
 open('index.html', 'w', encoding='utf-8').write(src)
 print('index.html written', len(src))
