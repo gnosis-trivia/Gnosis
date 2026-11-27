@@ -285,8 +285,8 @@ select,input{background:light-dark(rgb(255 255 255/.6),rgb(5 8 22/.42))!importan
 .mpg .mpl b,.mpg .mpl small{background:rgb(11 16 40/.8);color:#e9ecf5}.mpg .mpl small{color:#aeb7d3}.mpg .mprank li{background:rgb(255 255 255/.06);border-color:rgb(255 255 255/.12);color:#e9ecf5}.mpg .mprank li.you{border-color:var(--gold)}
 .mpg .stack td,.mpg .stack th{color:#e9ecf5;border-color:rgb(255 255 255/.12)}
 .mptree.turn{animation:none}.mptree.turn>svg{animation:mpTurn 1.8s cubic-bezier(.3,.7,.3,1) both;transform-origin:50% 100%}
-.herocta{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;max-width:460px}.herocta button{margin:0!important;width:100%;padding-left:6px!important;padding-right:6px!important;white-space:nowrap;font-size:clamp(13px,3.9vw,17px)!important;letter-spacing:0}
-.mpjump{border-color:var(--gold)!important;color:var(--gold)!important}
+.herocta{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;width:100%;max-width:460px;container-type:inline-size}.herocta button{margin:0!important;width:100%;padding-left:6px!important;padding-right:6px!important;white-space:nowrap;font-size:clamp(12px,3.9vw,17px)!important;font-size:clamp(11px,calc(5.85cqi - 3.4px),17px)!important;letter-spacing:0}
+.mpjump{position:relative;overflow:visible!important;border-color:var(--gold)!important;color:var(--gold)!important}.jbeta{position:absolute;top:-9px;right:-4px;font:800 9.5px/1 Overpass,system-ui,sans-serif;letter-spacing:.12em;padding:4px 7px;border-radius:999px;background:var(--gold);color:#1b1300;box-shadow:0 2px 8px rgb(240 181 32/.5);pointer-events:none}
 .mpflash{animation:mpFlash 1.6s ease-out}@keyframes mpFlash{0%,40%{box-shadow:0 0 0 3px var(--gold),0 0 40px rgb(240 181 32/.6)}100%{box-shadow:none}}
 </style><script>new MutationObserver(()=>{for(const c of document.querySelectorAll('.stack td:not([data-l])')){let i=0,p=c;while(p=p.previousElementSibling)i+=p.colSpan;c.dataset.l=c.closest('table').rows[0].cells[i]?.textContent||''}}).observe(document,{childList:true,subtree:true})</script></head>
 <body>
@@ -297,7 +297,7 @@ select,input{background:light-dark(rgb(255 255 255/.6),rgb(5 8 22/.42))!importan
   <div class="legend">
    <h1>Gnosis</h1>
    <p class="lede">Rare-answer Bible and worship trivia. Name anything that fits. Every answer grows a root, rarer answers grow deeper roots, and as your Manna adds up your tree grows tall and bears fruit.</p>
-   <div class="cta herocta"><button class="go" id="dailyBtn">Today's round</button><button class="alt" id="mixBtn">Unlimited</button><button class="alt" id="catJump">Categories</button><button class="alt mpjump" id="mpJump">Chokmah Garden</button></div>
+   <div class="cta herocta"><button class="go" id="dailyBtn">Today's round</button><button class="alt" id="mixBtn">Unlimited</button><button class="alt" id="catJump">Categories</button><button class="alt mpjump" id="mpJump" aria-label="Chokmah Garden, multiplayer beta">Chokmah Garden<span class="jbeta" aria-hidden="true">BETA</span></button></div>
    <p class="small" id="streak"></p>
    <ol class="tiers" id="tierList"></ol>
   </div>
