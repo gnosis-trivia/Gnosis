@@ -226,6 +226,7 @@ select,input{background:light-dark(rgb(255 255 255/.6),rgb(5 8 22/.42))!importan
 @media(prefers-reduced-motion:reduce){#grow,#grow.out{animation:none}}
 .rtree{float:right;width:min(34%,150px);margin:0 0 10px 14px;border-radius:12px;overflow:hidden;box-shadow:0 0 0 1px rgb(255 255 255/.08)}
 .rtree svg{display:block;width:100%;height:auto}
+.rtree{transition:opacity .6s ease-out}.rtree.wait{opacity:0;visibility:hidden}
 @media(min-width:761px){.dgrid{grid-template-columns:minmax(0,1fr) minmax(0,560px)}}
 .dscene{display:grid;gap:8px}
 .dscene .small{margin:0;text-align:center}
@@ -628,7 +629,9 @@ function growFocus(t,prev){
  el.innerHTML=`<div class="gcard"><p class="gcap">${t?'+'+tier.p+' Manna':'No harvest'}</p>${t?`<p class="gtier"><span class="pill t${t}">${esc(tier.n)}</span></p>`:''}<div class="tsvg">${soloSVG({pl:G.plan,tiers,n:G.items.length,pts:G.pts,prev,grew:i,anim:true})}</div><p class="gline">${esc(line)}</p><p class="gtap">Tap anywhere to continue</p></div>`;
  el.classList.remove('out');el.hidden=false;clearTimeout(growT);growT=setTimeout(closeGrow,RM?1800:t?3200:2200);
 }
-function closeGrow(){const el=$('grow');if(el.hidden)return;clearTimeout(growT);el.classList.add('out');setTimeout(()=>{el.hidden=true;el.classList.remove('out');el.innerHTML='';const nx=$('nx');if(nx&&!$('play').hidden)nx.focus({preventScroll:true})},RM?0:300)}
+// the small tree in the answer card stays hidden until the tree animation has played
+function showRevTree(){const r=document.querySelector('#rev .rtree.wait');if(r)r.classList.remove('wait')}
+function closeGrow(){const el=$('grow');if(el.hidden)return;clearTimeout(growT);el.classList.add('out');setTimeout(()=>{el.hidden=true;el.classList.remove('out');el.innerHTML='';showRevTree();const nx=$('nx');if(nx&&!$('play').hidden)nx.focus({preventScroll:true})},RM?0:300)}
 $('grow').addEventListener('click',closeGrow);
 addEventListener('keydown',e=>{if(!$('grow').hidden&&['Enter',' ','Escape'].includes(e.key)){e.preventDefault();closeGrow()}});
 
@@ -817,8 +820,8 @@ function reveal(m,why,said){
  const more=rest.length-smp.length;
  const sample=smp.length?`<dt>A few other answers</dt><dd><ul class="all">${smp.map(a=>`<li><span class="pill t${a.t}">${esc(T[a.t].s)}</span> ${esc(a.name)}${a.ref&&p.cat!=='w'?` <span class="rf">${esc(a.ref)}</span>`:''}${p.cat==='w'?` <a class="spl" href="${spotifyURL(p,a)}" target="_blank" rel="noopener" aria-label="Listen to ${esc(a.song?a.song.bare:a.name)} on Spotify">Listen →</a>`:''}</li>`).join('')}</ul>${more>0?`<p class="small" style="margin:6px 0 0">…and ${more} more on our list.</p>`:''}</dd>`:'';
  const last=G.i===G.items.length-1;
- $('rev').innerHTML=`<div class="rtree" aria-hidden="true">${soloSVG({pl:G.plan,tiers:G.res.map(r=>r.t),n:G.items.length,pts:G.pts})}</div><span class="pill t${t}">${esc(tier.s)}</span><p class="big${m?' pop':''}${m&&t<=4?' s'+t:''}">${m?'+'+tier.p+' Manna':'No harvest'}</p><p>${m?`${esc(tier.n)} for <b>${esc(m.name)}</b>${said&&key(said)!==key(m.name)?` (you typed “${esc(said)}”)`:''}.`:esc(why)}</p>${m?pickInfo(p,m):''}${(f=>f?`<p class="fact">${esc(f)}</p>`:'')(pickFact(p))}<dl>${sample}</dl><button class="go" id="nx">${last?'See results':'Next prompt'}</button>`;
- $('rev').hidden=false;if(t){centerPop(t);if(t>=5)boom(t)}clearTimeout(growW);growW=setTimeout(()=>{if(G&&!G.mp&&G.res.length===i0+1&&!$('play').hidden)growFocus(t,prev)},!t||RM?150:t>=5?1700:1400);$('nx').addEventListener('click',()=>{if(last)finish();else{G.i++;next()}});if(G.mp)MP.afterReveal(t);$('inp').blur();$('nx').focus({preventScroll:true});requestAnimationFrame(()=>{const r=$('rev').getBoundingClientRect();if(r.top<56||r.top>innerHeight*0.6)scrollTo({top:Math.max(0,scrollY+r.top-90),behavior:RM?'auto':'smooth'})});
+ $('rev').innerHTML=`<div class="rtree wait" aria-hidden="true">${soloSVG({pl:G.plan,tiers:G.res.map(r=>r.t),n:G.items.length,pts:G.pts})}</div><span class="pill t${t}">${esc(tier.s)}</span><p class="big${m?' pop':''}${m&&t<=4?' s'+t:''}">${m?'+'+tier.p+' Manna':'No harvest'}</p><p>${m?`${esc(tier.n)} for <b>${esc(m.name)}</b>${said&&key(said)!==key(m.name)?` (you typed “${esc(said)}”)`:''}.`:esc(why)}</p>${m?pickInfo(p,m):''}${(f=>f?`<p class="fact">${esc(f)}</p>`:'')(pickFact(p))}<dl>${sample}</dl><button class="go" id="nx">${last?'See results':'Next prompt'}</button>`;
+ $('rev').hidden=false;if(t){centerPop(t);if(t>=5)boom(t)}clearTimeout(growW);growW=setTimeout(()=>{if(G&&!G.mp&&G.res.length===i0+1&&!$('play').hidden)growFocus(t,prev);else showRevTree()},!t||RM?150:t>=5?1700:1400);$('nx').addEventListener('click',()=>{if(last)finish();else{G.i++;next()}});if(G.mp)MP.afterReveal(t);$('inp').blur();$('nx').focus({preventScroll:true});requestAnimationFrame(()=>{const r=$('rev').getBoundingClientRect();if(r.top<56||r.top>innerHeight*0.6)scrollTo({top:Math.max(0,scrollY+r.top-90),behavior:RM?'auto':'smooth'})});
 }
 function finish(){
  const k=G.k,max=G.items.length*100;
