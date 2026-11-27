@@ -75,27 +75,29 @@ const SIM_VAR={thee:'you',thou:'you',ye:'you',thy:'your',thine:'your',hath:'has'
  elias:'elijah',eliah:'elijah',esaias:'isaiah',jeremy:'jeremiah',jonas:'jonah',noe:'noah',osee:'hosea',sion:'zion',messias:'messiah',timotheus:'timothy',marcus:'mark',lucas:'luke',agar:'hagar',sara:'sarah',
  one:'1',two:'2',three:'3',four:'4',five:'5',six:'6',seven:'7',eight:'8',nine:'9',ten:'10',eleven:'11',twelve:'12',forty:'40',hundred:'100',thousand:'1000',first:'1st',second:'2nd',third:'3rd'};
 const SIM_STOP=new Set(['you','your','i','my','me','we','us','our','he','him','his','she','her','it','its','they','them','their','is','am','are','was','were','be','been','being','that','this','these','those','which','who','whom','will','would','o','oh','as','so','unto','to','at','into','upon','all','do','does','did','has','have','had','there','then','when','up','out']);
-const SIM_FILL=new Set(['like','many','make','made','very','great_','also','even','just','about','some','thing','things','one_','time','people','man_','said_']);
+const SIM_FILL=new Set(['like','many','very','also','even','just','about','some','thing','things','time','people','come','comes','cometh','came','go','goes','goeth','went','get','gets','really']);
 function simStem(w,e){
  if(w.length>4){for(const x of ['eth','est','ing','ed','es','s'])if(w.endsWith(x)&&w.length-x.length>=3){w=w.slice(0,-x.length);break}}
  if(e&&w.length>3&&w.endsWith('e'))w=w.slice(0,-1);
  return w;
 }
 function simWords(s){return String(s).normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase().replace(/&/g,' and ').replace(/['’.]/g,'').replace(/[^a-z0-9]+/g,' ').trim().split(' ').map(w=>SIM_VAR[w]||w).filter(w=>w&&!STOP.has(w)&&!SIM_STOP.has(w))}
+const SIM_FILLS=new Set([...SIM_FILL].map(w=>simStem(w,1)));
 function simToks(s){return [...new Set(simWords(s).map(w=>simStem(w,1)))]}
 function simEq(a,b){return a===b||(a.length>=5&&b.length>=5&&lev(a,b,1)<=1)}
 function similar(b,input){
  const W=simWords(input);if(!W.length)return null;
  const one=W.length===1&&W[0].length>=4?simStem(W[0]):null;
- const I=simToks(input),core=I.filter(w=>!SIM_FILL.has(w)&&!SIM_FILL.has(w+'e')),ik=W.map(w=>simStem(w,1)).sort().join(' ');
+ const I=simToks(input),core=I.filter(w=>!SIM_FILLS.has(w)),ik=W.map(w=>simStem(w,1)).sort().join(' ');
  let best=null,bs=0,second=0;
  for(const a of b.ans){let sa=0;
   for(const n of a.names){const NW=simWords(n);if(!NW.length)continue;
    if(NW.map(w=>simStem(w,1)).sort().join(' ')===ik&&(W.length>1||(one&&NW.length===1&&simStem(NW[0])===one))){sa=Math.max(sa,3);continue}
    const A=simToks(n);if(A.length<2||!core.length)continue;
    if(!core.every(v=>A.some(w=>simEq(w,v))))continue;           // nothing the player typed may be foreign to this answer
-   const hit=A.filter(w=>I.some(v=>simEq(w,v))).length,cov=hit/A.length;
-   if(hit>=2&&cov>=0.6)sa=Math.max(sa,1+cov)}
+   const AC=A.filter(w=>!SIM_FILLS.has(w));if(!AC.length)continue;
+   const hit=AC.filter(w=>I.some(v=>simEq(w,v))).length,cov=hit/AC.length;
+   if(hit>=2&&cov>=0.75)sa=Math.max(sa,1+cov)}
   if(sa>bs){second=bs;bs=sa;best=a}else if(sa>second)second=sa}
  return best&&bs-second>=0.15?best:null;
 }
@@ -108,7 +110,7 @@ function parseAns(a){return a.split(';').filter(Boolean).map(s=>{const[nm,t,rf,n
 for(const line of RAW.split('\n')){
  const t=line.trim();if(!t||t.startsWith('//'))continue;const x=t.split('^');
  if(x[0]==='S')SONGS.push({ar:x[1].split(','),t:+x[2],fl:x[3]||'',names:x[4].split('|'),sp:(x[5]||'').trim()});
- else{const[ty,dd]=x[0].split('@');P.push({cat:ty.toLowerCase(),g:x[1],q:x[2],f:x[3]||'',ans:parseAns(x[4]),d:dd||''})}
+ else{const[hd,keep]=x[0].split('!'),[ty,dd]=hd.split('@');P.push({cat:ty.toLowerCase(),g:x[1],q:x[2],f:x[3]||'',ans:parseAns(x[4]),d:dd||'',keep:keep||''})}
 }
 SONGS.forEach(s=>{const extra=[];for(const n of s.names){const m=n.match(/^(.*?)\s*\((.*)\)\s*$/);if(m){extra.push(m[1]);if(m[2].split(' ').length>1)extra.push(m[2])}}s.all=[...s.names,...extra];s.title=s.names[0];s.bare=s.title.replace(/\s*\(.*\)\s*$/,'')});
 const words=s=>s.bare.split(/\s+/).filter(Boolean).length;
@@ -141,7 +143,8 @@ addSongs('praise','Name an upbeat praise song by Brandon Lake, Elevation Worship
 addSongs('praise','Name a gospel-flavoured song by CeCe Winans or Maverick City Music',ARF.cw,by(['cw','mcm']),xt);
 addSongs('praise','Name a youth-band song by Elevation Rhythm or Hillsong Young & Free',ARF.er,by(['er','hyf']),xt);
 addSongs('praise','Name a high-energy song by Hillsong, Chris Tomlin, Phil Wickham or Kari Jobe','“Our God” and “Famous One” are two of Chris Tomlin\'s fastest anthems.',PR.filter(s=>s.ar.some(a=>['hu','hw','hyf','ct','pw','kj'].includes(a))),xt);
-P.forEach(p=>{p.id=hstr(p.cat+'|'+p.g+'|'+p.q).toString(36);p.ans.sort((a,b)=>a.t-b.t)});
+// a rewritten prompt keeps its original id (TYPE!id), so daily rounds and saved bests don't shift
+P.forEach(p=>{p.id=p.keep||hstr(p.cat+'|'+p.g+'|'+p.q).toString(36);p.ans.sort((a,b)=>a.t-b.t)});
 const BYID=Object.fromEntries(P.map(p=>[p.id,p]));
 
 // ---------- pools ----------
