@@ -49,6 +49,8 @@ function wset(s){return [...new Set(String(s).normalize('NFD').replace(/[̀-ͯ]/
 function exact(b,k){for(const a of b.ans)if(a.keys.includes(k))return a;return null}
 function match(b,input){
  const k=key(input);if(!k)return null;
+ const raw=x=>String(x).normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase().replace(/[^a-z0-9]/g,''),ri=raw(input);
+ for(const a of b.ans)if(a.names.some(n=>raw(n)===ri))return a; // exact spelling wins (Anna vs Annas)
  let hit=exact(b,k);if(hit)return hit;
  const ws=wset(input),k2=key(ws.join(' '));
  if(k2&&k2!==k&&(hit=exact(b,k2)))return hit;
@@ -61,7 +63,41 @@ function match(b,input){
  }
  if(k.length>=5){const pre=b.ans.filter(a=>a.keys.some(kk=>kk.startsWith(k)));if(pre.length===1)return pre[0]}
  if(k.length>=6){const inn=b.ans.filter(a=>a.keys.some(kk=>kk.includes(k)));if(inn.length===1)return inn[0]}
+ if(b.cat==='b'||b.cat==='c')return similar(b,input);
  return null;
+}
+// ---------- Bible verse and character answers given in other simWords ----------
+// Accepts KJV or modern wording, older name spellings, a different word order, filler simWords, and a phrase
+// with a word or two left out. Every meaningful word the player types must belong to the answer, so a
+// different name or object ("Moon turned to blood" vs "Water turned to blood") never counts.
+const SIM_VAR={thee:'you',thou:'you',ye:'you',thy:'your',thine:'your',hath:'has',hast:'has',doth:'does',dost:'does',saith:'say',said:'say',says:'say',spake:'speak',spoke:'speak',spoken:'speak',shalt:'will',shall:'will',wilt:'will',
+ charity:'love',ghost:'spirit',affection:'mind',affections:'mind',minds:'mind',whatsoever:'whatever',whosoever:'whoever',
+ elias:'elijah',eliah:'elijah',esaias:'isaiah',jeremy:'jeremiah',jonas:'jonah',noe:'noah',osee:'hosea',sion:'zion',messias:'messiah',timotheus:'timothy',marcus:'mark',lucas:'luke',agar:'hagar',sara:'sarah',
+ one:'1',two:'2',three:'3',four:'4',five:'5',six:'6',seven:'7',eight:'8',nine:'9',ten:'10',eleven:'11',twelve:'12',forty:'40',hundred:'100',thousand:'1000',first:'1st',second:'2nd',third:'3rd'};
+const SIM_STOP=new Set(['you','your','i','my','me','we','us','our','he','him','his','she','her','it','its','they','them','their','is','am','are','was','were','be','been','being','that','this','these','those','which','who','whom','will','would','o','oh','as','so','unto','to','at','into','upon','all','do','does','did','has','have','had','there','then','when','up','out']);
+const SIM_FILL=new Set(['like','many','make','made','very','great_','also','even','just','about','some','thing','things','one_','time','people','man_','said_']);
+function simStem(w,e){
+ if(w.length>4){for(const x of ['eth','est','ing','ed','es','s'])if(w.endsWith(x)&&w.length-x.length>=3){w=w.slice(0,-x.length);break}}
+ if(e&&w.length>3&&w.endsWith('e'))w=w.slice(0,-1);
+ return w;
+}
+function simWords(s){return String(s).normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase().replace(/&/g,' and ').replace(/['’.]/g,'').replace(/[^a-z0-9]+/g,' ').trim().split(' ').map(w=>SIM_VAR[w]||w).filter(w=>w&&!STOP.has(w)&&!SIM_STOP.has(w))}
+function simToks(s){return [...new Set(simWords(s).map(w=>simStem(w,1)))]}
+function simEq(a,b){return a===b||(a.length>=5&&b.length>=5&&lev(a,b,1)<=1)}
+function similar(b,input){
+ const W=simWords(input);if(!W.length)return null;
+ const one=W.length===1&&W[0].length>=4?simStem(W[0]):null;
+ const I=simToks(input),core=I.filter(w=>!SIM_FILL.has(w)&&!SIM_FILL.has(w+'e')),ik=W.map(w=>simStem(w,1)).sort().join(' ');
+ let best=null,bs=0,second=0;
+ for(const a of b.ans){let sa=0;
+  for(const n of a.names){const NW=simWords(n);if(!NW.length)continue;
+   if(NW.map(w=>simStem(w,1)).sort().join(' ')===ik&&(W.length>1||(one&&NW.length===1&&simStem(NW[0])===one))){sa=Math.max(sa,3);continue}
+   const A=simToks(n);if(A.length<2||!core.length)continue;
+   if(!core.every(v=>A.some(w=>simEq(w,v))))continue;           // nothing the player typed may be foreign to this answer
+   const hit=A.filter(w=>I.some(v=>simEq(w,v))).length,cov=hit/A.length;
+   if(hit>=2&&cov>=0.6)sa=Math.max(sa,1+cov)}
+  if(sa>bs){second=bs;bs=sa;best=a}else if(sa>second)second=sa}
+ return best&&bs-second>=0.15?best:null;
 }
 function hstr(s){let x=2166136261;for(let i=0;i<s.length;i++){x^=s.charCodeAt(i);x=Math.imul(x,16777619)}return x>>>0}
 
