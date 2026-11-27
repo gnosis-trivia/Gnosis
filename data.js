@@ -83,19 +83,19 @@ S^er^5^^Sing of Your Love
 S^er^5^^I Was, But God|I Was But God
 S^er^4^p^Joy!|Joy
 S^ncw^1^^Finished^7gjdfUhIVmIq5WCroJSxRv
-S^ncw^2^p^Grace Revolution
-S^ncw^2^^Anthem of Grace
+S^ncw^2^p^Grace Revolution^al:5v9Bzb2hSrhGumz2ltxCKZ
+S^ncw^2^^Anthem of Grace^al:5v9Bzb2hSrhGumz2ltxCKZ
 S^ncw^3^p^Hearts on Fire^6A2nHL8kDvVfW8EPG4DVoQ
-S^ncw^3^^Sweeter Than Wine
+S^ncw^3^^Sweeter Than Wine^4RaWnyXN5EAPTcPbz9u8l8
 S^ncw^3^^Refuge^6JbGxLSnazkU7f5KZyuUrm
-S^ncw^4^^Forgiven Much
-S^ncw^4^p^Restore!|Restore
+S^ncw^4^^Forgiven Much^al:5v9Bzb2hSrhGumz2ltxCKZ
+S^ncw^4^p^Restore!|Restore^al:5v9Bzb2hSrhGumz2ltxCKZ
 S^hw,ncw^3^m^I Surrender
-S^ncw^4^^I Will Follow After You
-S^ncw^3^^Sky
-S^ncw^4^^Shadow of Grace
-S^ncw^4^^All of You
-S^ncw^4^^For You So Loved Me
+S^ncw^4^^I Will Follow After You^2ISQnTf7BB4mN5r8EEvEea
+S^ncw^3^^Sky^al:6ruFC8So9XZDIU3t8lwOqb
+S^ncw^4^^Shadow of Grace^2OpQNZUDbWwnpbwBbBFAlm
+S^ncw^4^^All of You^488bYapKgiWZDhvCkXD3fL
+S^ncw^4^^For You So Loved Me^al:6ruFC8So9XZDIU3t8lwOqb
 S^ncw,bw^5^m^Letting Go
 S^ncw^3^^I See Grace
 S^bw,cw,bjj^1^^Goodness of God^1O6OPFAXdTdjHtT7Z2Hlt8
@@ -389,12 +389,12 @@ S^msc^5^^You Never Fail Me (All My Life)
 S^msc^5^^Millions
 S^msc^5^^Love of a Lifetime
 S^msc^5^^Your Love Will Never Change
-S^ncw^4^^Trust in the Lord
-S^ncw^5^^YHVH|Y H V H
-S^ncw^5^^Supply
-S^ncw^5^^Your Lavish Love
-S^ncw^4^^As He Is, So Are We|As He Is So Are We
-S^ncw^5^^Whom Jesus Loves
+S^ncw^4^^Trust in the Lord^59aDYvH35khGsYBfI9KMU8
+S^ncw^5^^YHVH|Y H V H^5UbQhxUzju6Vx3OfueBSFi
+S^ncw^5^^Supply^1HGWFhaMf73CqygUUeGIiT
+S^ncw^5^^Your Lavish Love^2fPAgsT74HFOkCDzSEdl3c
+S^ncw^4^^As He Is, So Are We|As He Is So Are We^16EfTG9XheE8x1qIK9xFxU
+S^ncw^5^^Whom Jesus Loves^3dfiDnBYd14D9g4GE7kTaJ
 S^hw^4^^Love So Great
 S^hw^5^^One Thing
 S^hw^4^^Fresh Wind
@@ -1023,43 +1023,43 @@ S^mcm,ur^5^^Everything Is Yours
 S^mcm,ur^5^^I Want to See You
 
 S^ncw^5^^139|One Three Nine
-S^ncw^4^^Stronger
-S^ncw^5^^Pearl of Great Price|Pearl of Great Price (song)
+S^ncw^4^^Stronger^7pCv3KSv2dneI5KGn0A82L
+S^ncw^5^^Pearl of Great Price|Pearl of Great Price (song)^1RqHsVdi37YuDVWxBcELXN
 S^ncw^5^^The Pearl
 S^ncw^5^^The Real Deal
-S^ncw^4^^A Heart to Hear
+S^ncw^4^^A Heart to Hear^4dODoZAWmePh3KaQA0C5ZZ
 S^ncw^5^^Betrayal
-S^ncw^4^^So Much More
-S^ncw^4^^Unseen
-S^ncw^5^^Love Burns Bright
-S^ncw^3^^Called for More
-S^ncw^5^^Light of the World (New Creation)|Light of the World
+S^ncw^4^^So Much More^al:3BPKpVUyERvgpZGK9GZyhz
+S^ncw^4^^Unseen^al:3BPKpVUyERvgpZGK9GZyhz
+S^ncw^5^^Love Burns Bright^1PHpwH7ebWma8kyvj5msrC
+S^ncw^3^^Called for More^al:4cpTt7mzg1Eah43KTwVRCZ
+S^ncw^5^^Light of the World (New Creation)|Light of the World^1sS7osOwjGzkdr6nwcMI3T
 S^ncw^2^^Face to Face^1cHvWt8D8qPjQMzTR0ctca
 S^ncw^2^^You Are the One
 S^ncw^3^^This I Know
-S^ncw^3^p^Praise the Lord for He Is Good
-S^ncw^3^^Beauty of Holiness
+S^ncw^3^p^Praise the Lord for He Is Good^368g4rzWU2JxNW9S5NCxbF
+S^ncw^3^^Beauty of Holiness^0YEQ5O2wAyOJYRjM7ouR6t
 S^ncw^3^^Your Life for Mine^1rA5aXDw8ubfrnf03UDeYN
-S^ncw^4^^Light in Our Dwellings
-S^ncw^4^^Yeshua, My Saviour|Yeshua My Saviour|Yeshua My Savior
-S^ncw^3^^Latter Rain
+S^ncw^4^^Light in Our Dwellings^1buAWsRJVQQywdHTIZWZKt
+S^ncw^4^^Yeshua, My Saviour|Yeshua My Saviour|Yeshua My Savior^2VtDZU0jt9QNkXY92MrJfW
+S^ncw^3^^Latter Rain^7w3COuwojafWRbF4z9Ox8f
 S^ncw^4^^Love Magnificent
-S^ncw^3^^Glorious and Beautiful|Glorious & Beautiful
-S^ncw^4^^Sons and Daughters|Sons & Daughters
-S^ncw^3^^Wonderful (Grace Made Real)
-S^ncw^4^p^First Light
+S^ncw^3^^Glorious and Beautiful|Glorious & Beautiful^3OfMnYaS809QqghufGx63i
+S^ncw^4^^Sons and Daughters|Sons & Daughters^al:6ruFC8So9XZDIU3t8lwOqb
+S^ncw^3^^Wonderful (Grace Made Real)^1YR5cWluRLRsdeqNA5AHow
+S^ncw^4^p^First Light^3vpm0ny5cKhWs3hhGmGoUb
 S^ncw^4^p^Let the Fire Burn
 S^ncw^4^^Upon This Rock
 S^ncw^4^^Call Upon Your Name
-S^ncw^4^^Everlasting
+S^ncw^4^^Everlasting^al:4rXmJ1en0QdoRzBOI0Cqgm
 S^ncw^5^^The Wind and Wave|The Wind and the Wave^7j6YG83f314VtxQy4QflWn
-S^ncw^5^^Star of Promise
-S^ncw^4^p^Sing With Me, Singapore|Sing With Me Singapore
+S^ncw^5^^Star of Promise^2LgjXayVeWxWEB84HAQRtc
+S^ncw^4^p^Sing With Me, Singapore|Sing With Me Singapore^08QtEPO5ei4Y7JpygQ05kq
 S^ncw^4^^Give Me This Mountain^7wT2D18GoBHVtCufYokzeq
-S^ncw^5^^Hope of Glory
-S^ncw^4^^More Than Enough
-S^ncw^5^^Powered by One
-S^ncw^5^^Rain Upon My Life
+S^ncw^5^^Hope of Glory^5yumjF546VA43jyzOyjxsl
+S^ncw^4^^More Than Enough^4fpgNpRxuitpEXoaKDCio8
+S^ncw^5^^Powered by One^3Jctj55J6EaQyom8ewHoeY
+S^ncw^5^^Rain Upon My Life^6eQ48eTofJJfU3RNAjNZz8
 S^ncw^4^^Psalm 91^6ahyPSUYsTd4Z7pyfJtK4r
 S^ncw^5^p^Rejoice O Israel
 S^ncw^5^p^Joy in My Soul
