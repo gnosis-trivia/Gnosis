@@ -1026,16 +1026,16 @@ S^ncw^5^^139|One Three Nine^3DbsPJdjd2I30MAVkvhIBK
 S^ncw^4^^Stronger^7pCv3KSv2dneI5KGn0A82L
 S^ncw^5^^Pearl of Great Price|Pearl of Great Price (song)^1RqHsVdi37YuDVWxBcELXN
 S^ncw^5^^The Pearl
-S^ncw^5^^The Real Deal
+S^ncw^5^^The Real Deal^7yoEpHlWouZPUCIGybJnLz
 S^ncw^4^^A Heart to Hear^4dODoZAWmePh3KaQA0C5ZZ
-S^ncw^5^^Betrayal
+S^ncw^5^^Betrayal^7k4ZuupFzFZKLTBtTYD0qz
 S^ncw^4^^So Much More^4qY3xYsWVUZpDu0ZHR0iNe
 S^ncw^4^^Unseen^al:3BPKpVUyERvgpZGK9GZyhz
 S^ncw^5^^Love Burns Bright^1PHpwH7ebWma8kyvj5msrC
 S^ncw^3^^Called for More^0gpuRQmyi5DRw4musOazmA
 S^ncw^5^^Light of the World (New Creation)|Light of the World^1sS7osOwjGzkdr6nwcMI3T
 S^ncw^2^^Face to Face^1cHvWt8D8qPjQMzTR0ctca
-S^ncw^2^^You Are the One
+S^ncw^2^^You Are the One^37DK92vWaYckG7pK7LuBRd
 S^ncw^3^^This I Know^0j8TOnr3ox5r73XkENYEX7
 S^ncw^3^p^Praise the Lord for He Is Good^368g4rzWU2JxNW9S5NCxbF
 S^ncw^3^^Beauty of Holiness^0YEQ5O2wAyOJYRjM7ouR6t
@@ -1043,14 +1043,14 @@ S^ncw^3^^Your Life for Mine^1rA5aXDw8ubfrnf03UDeYN
 S^ncw^4^^Light in Our Dwellings^1buAWsRJVQQywdHTIZWZKt
 S^ncw^4^^Yeshua, My Saviour|Yeshua My Saviour|Yeshua My Savior^2VtDZU0jt9QNkXY92MrJfW
 S^ncw^3^^Latter Rain^7w3COuwojafWRbF4z9Ox8f
-S^ncw^4^^Love Magnificent
+S^ncw^4^^Love Magnificent^5qdNl1Bkiivxvz250CDeDr
 S^ncw^3^^Glorious and Beautiful|Glorious & Beautiful^3OfMnYaS809QqghufGx63i
 S^ncw^4^^Sons and Daughters|Sons & Daughters^al:6ruFC8So9XZDIU3t8lwOqb
 S^ncw^3^^Wonderful (Grace Made Real)^1YR5cWluRLRsdeqNA5AHow
 S^ncw^4^p^First Light^3vpm0ny5cKhWs3hhGmGoUb
 S^ncw^4^p^Let the Fire Burn
 S^ncw^4^^Upon This Rock
-S^ncw^4^^Call Upon Your Name
+S^ncw^4^^Call Upon Your Name^53rcofHTIpH0LmCor8DuvH
 S^ncw^4^^Everlasting^al:4rXmJ1en0QdoRzBOI0Cqgm
 S^ncw^5^^The Wind and Wave|The Wind and the Wave^7j6YG83f314VtxQy4QflWn
 S^ncw^5^^Star of Promise^2LgjXayVeWxWEB84HAQRtc
@@ -1061,10 +1061,10 @@ S^ncw^4^^More Than Enough^4fpgNpRxuitpEXoaKDCio8
 S^ncw^5^^Powered by One^3Jctj55J6EaQyom8ewHoeY
 S^ncw^5^^Rain Upon My Life^6eQ48eTofJJfU3RNAjNZz8
 S^ncw^4^^Psalm 91^6ahyPSUYsTd4Z7pyfJtK4r
-S^ncw^5^p^Rejoice O Israel
-S^ncw^5^p^Joy in My Soul
-S^ncw^5^p^Come Alive (New Creation)|Come Alive
-S^ncw^5^p^Shine|Shine Jesus Shine / Shine
+S^ncw^5^p^Rejoice O Israel^4d2T0eErOXbBvfIEkIdRp9
+S^ncw^5^p^Joy in My Soul^599kz3qNiGqnRiIboXQEvh
+S^ncw^5^p^Come Alive (New Creation)|Come Alive^0JK3qZMFnPgVfrVv7AOZH2
+S^ncw^5^p^Shine|Shine Jesus Shine / Shine^5Mbgh9N8IbZewONlZ2tmCx
 S^cc,kj^3^^Cover the Earth
 S^cc,kj^4^^Til the End of Time|Till the End of Time
 S^cc^4^^The Cross Has the Final Word
