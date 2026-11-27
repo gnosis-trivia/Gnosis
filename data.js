@@ -84,19 +84,19 @@ S^er^5^^I Was, But God|I Was But God
 S^er^4^p^Joy!|Joy
 S^ncw^1^^Finished^7gjdfUhIVmIq5WCroJSxRv
 S^ncw^2^p^Grace Revolution^al:5v9Bzb2hSrhGumz2ltxCKZ
-S^ncw^2^^Anthem of Grace^al:5v9Bzb2hSrhGumz2ltxCKZ
+S^ncw^2^^Anthem of Grace^1tjFRJo3INnMHNK9UCnjkD
 S^ncw^3^p^Hearts on Fire^6A2nHL8kDvVfW8EPG4DVoQ
 S^ncw^3^^Sweeter Than Wine^4RaWnyXN5EAPTcPbz9u8l8
 S^ncw^3^^Refuge^6JbGxLSnazkU7f5KZyuUrm
 S^ncw^4^^Forgiven Much^al:5v9Bzb2hSrhGumz2ltxCKZ
 S^ncw^4^p^Restore!|Restore^al:5v9Bzb2hSrhGumz2ltxCKZ
-S^hw,ncw^3^m^I Surrender
+S^hw,ncw^3^m^I Surrender^1JIG2af0KECQskfOSmDL3U
 S^ncw^4^^I Will Follow After You^2ISQnTf7BB4mN5r8EEvEea
 S^ncw^3^^Sky^al:6ruFC8So9XZDIU3t8lwOqb
 S^ncw^4^^Shadow of Grace^2OpQNZUDbWwnpbwBbBFAlm
 S^ncw^4^^All of You^488bYapKgiWZDhvCkXD3fL
 S^ncw^4^^For You So Loved Me^al:6ruFC8So9XZDIU3t8lwOqb
-S^ncw,bw^5^m^Letting Go
+S^ncw,bw^5^m^Letting Go^0uwEogYW4pmLBP5SB9EQaU
 S^ncw^3^^I See Grace
 S^bw,cw,bjj^1^^Goodness of God^1O6OPFAXdTdjHtT7Z2Hlt8
 S^cw^1^^Believe for It^09VSG1KLDlanpc5o0TNRJE
@@ -1022,21 +1022,21 @@ S^mcm,ur^4^^Your Blood Is Strong Enough
 S^mcm,ur^5^^Everything Is Yours
 S^mcm,ur^5^^I Want to See You
 
-S^ncw^5^^139|One Three Nine
+S^ncw^5^^139|One Three Nine^3DbsPJdjd2I30MAVkvhIBK
 S^ncw^4^^Stronger^7pCv3KSv2dneI5KGn0A82L
 S^ncw^5^^Pearl of Great Price|Pearl of Great Price (song)^1RqHsVdi37YuDVWxBcELXN
 S^ncw^5^^The Pearl
 S^ncw^5^^The Real Deal
 S^ncw^4^^A Heart to Hear^4dODoZAWmePh3KaQA0C5ZZ
 S^ncw^5^^Betrayal
-S^ncw^4^^So Much More^al:3BPKpVUyERvgpZGK9GZyhz
+S^ncw^4^^So Much More^4qY3xYsWVUZpDu0ZHR0iNe
 S^ncw^4^^Unseen^al:3BPKpVUyERvgpZGK9GZyhz
 S^ncw^5^^Love Burns Bright^1PHpwH7ebWma8kyvj5msrC
-S^ncw^3^^Called for More^al:4cpTt7mzg1Eah43KTwVRCZ
+S^ncw^3^^Called for More^0gpuRQmyi5DRw4musOazmA
 S^ncw^5^^Light of the World (New Creation)|Light of the World^1sS7osOwjGzkdr6nwcMI3T
 S^ncw^2^^Face to Face^1cHvWt8D8qPjQMzTR0ctca
 S^ncw^2^^You Are the One
-S^ncw^3^^This I Know
+S^ncw^3^^This I Know^0j8TOnr3ox5r73XkENYEX7
 S^ncw^3^p^Praise the Lord for He Is Good^368g4rzWU2JxNW9S5NCxbF
 S^ncw^3^^Beauty of Holiness^0YEQ5O2wAyOJYRjM7ouR6t
 S^ncw^3^^Your Life for Mine^1rA5aXDw8ubfrnf03UDeYN
