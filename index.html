@@ -804,7 +804,7 @@ function spotifyURL(p,a){
  const ar=a.song?a.song.ar.map(k=>ARN[k]).join(' '):(p.g.startsWith('art:')?ARN[p.g.slice(4)]||'':p.g==='hymn'?'hymn':'');
  return 'https://open.spotify.com/search/'+encodeURIComponent(((a.song?a.song.bare:a.name)+' '+ar).trim());
 }
-let KJV=window.GN_KJV||{};if(!window.GN_KJV)try{fetch('kjv.json').then(r=>r.ok?r.json():{}).then(j=>{KJV=j||{}}).catch(()=>{})}catch(e){}
+let KJV=window.GN_KJV||{};if(!window.GN_KJV)try{fetch('kjv.json?v=4e368b0cee').then(r=>r.ok?r.json():{}).then(j=>{KJV=j||{}}).catch(()=>{})}catch(e){}
 function pickInfo(p,a){
  if(p.cat==='w')return `<p class="pinfo"><a href="${spotifyURL(p,a)}" target="_blank" rel="noopener">Give your pick a listen →</a> <span class="rf">${esc(a.song?a.song.bare:a.name)} on Spotify</span></p>`;
  if(!a.ref&&!a.note)return '';
@@ -1029,5 +1029,11 @@ const MP=(()=>{
 drawHome();refresh();
 }
 </script>
+<script>(function(){var B="5f01213fc8f2",K="gnUpd";function chk(){if(document.hidden)return;
+fetch("version.json?t="+Date.now(),{cache:"no-store"}).then(function(r){return r.ok?r.json():null}).then(function(j){
+if(!j||!j.v||j.v===B)return;var h=document.getElementById("home");if(h&&h.hidden)return;
+try{if(sessionStorage.getItem(K)===j.v)return;sessionStorage.setItem(K,j.v)}catch(e){}
+fetch(location.pathname,{cache:"reload"}).catch(function(){}).then(function(){location.reload()})}).catch(function(){})}
+addEventListener("load",function(){setTimeout(chk,1500)});document.addEventListener("visibilitychange",function(){if(!document.hidden)chk()})})();</script>
 </body>
 </html>

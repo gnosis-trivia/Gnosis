@@ -37,5 +37,22 @@ for f in ('room.js', 'data.js', 'engine.js'):
     if os.path.exists(f):
         h = hashlib.sha256(open(f, 'rb').read()).hexdigest()[:10]
         src = src.replace(f'<script src="{f}"></script>', f'<script src="{f}?v={h}"></script>')
+if os.path.exists('kjv.json'):
+    h = hashlib.sha256(open('kjv.json', 'rb').read()).hexdigest()[:10]
+    src = src.replace("fetch('kjv.json')", f"fetch('kjv.json?v={h}')")
+# Self-update: GitHub Pages lets browsers reuse an old index.html for up to 10 minutes, so the page
+# checks version.json (never cached) and quietly reloads itself when a newer build is live,
+# but only while the player is on the home screen, never mid-game. Same link every day.
+UPD = '''<script>(function(){var B="__BUILD__",K="gnUpd";function chk(){if(document.hidden)return;
+fetch("version.json?t="+Date.now(),{cache:"no-store"}).then(function(r){return r.ok?r.json():null}).then(function(j){
+if(!j||!j.v||j.v===B)return;var h=document.getElementById("home");if(h&&h.hidden)return;
+try{if(sessionStorage.getItem(K)===j.v)return;sessionStorage.setItem(K,j.v)}catch(e){}
+fetch(location.pathname,{cache:"reload"}).catch(function(){}).then(function(){location.reload()})}).catch(function(){})}
+addEventListener("load",function(){setTimeout(chk,1500)});document.addEventListener("visibilitychange",function(){if(!document.hidden)chk()})})();</script>
+'''
+src = src.replace('</body>', UPD + '</body>', 1) if '</body>' in src else src + UPD
+build = hashlib.sha256(src.encode('utf-8')).hexdigest()[:12]
+src = src.replace('__BUILD__', build)
 open('index.html', 'w', encoding='utf-8').write(src)
-print('index.html written', len(src))
+open('version.json', 'w').write(json.dumps({'v': build}) + '\n')
+print('index.html written', len(src), 'build', build)
