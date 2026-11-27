@@ -650,8 +650,8 @@ function refresh(){
  bestLine('wBest',wKey());bestLine('bBest',bKey());bestLine('cBest',cKey());
  const ch=CHARS.find(c=>c[0]===$('cSub').value);$('cBlurb').textContent=ch?ch[1]:'Twenty lives, from Abraham to the daughters of Zelophehad.';
  const d=st.get('daily:'+today()),sk=st.get('streak');
- $('dailyBtn').textContent=d?`Replay today (${d.pts} Manna)`:"Today's round";
- $('streak').textContent=(sk&&sk.n?`Streak: ${sk.n} day${sk.n>1?'s':''}. `:'')+`Round for ${fmtDay(today())}.`;
+ $('dailyBtn').textContent=d?'Replay today':"Today's round";$('dailyBtn').title=d?`Today's score: ${d.pts} Manna`:'';
+ $('streak').textContent=(sk&&sk.n?`Streak: ${sk.n} day${sk.n>1?'s':''}. `:'')+(d?`Today's score: ${d.pts} Manna. `:'')+`Round for ${fmtDay(today())}.`;
 }
 ['wSub','wArt','bSub','cSub'].forEach(id=>$(id).addEventListener('change',refresh));
 $('wSub').value=st.get('wSub')||'gen';$('wArt').value=st.get('wArt')||'art';
@@ -748,7 +748,7 @@ function draw(k,n){
 let G=null,timer=null;
 // fun facts: one per prompt, never repeated within a game (a fresh game starts a fresh list)
 function pickFact(p){G.facts=G.facts||{};G.usedF=G.usedF||new Set();if(G.i in G.facts)return G.facts[G.i];const all=p.fs||(p.f?[p.f]:[]);const left=all.filter(f=>!G.usedF.has(f));const f=left.length?left[Math.floor(Math.random()*left.length)]:'';if(f)G.usedF.add(f);return G.facts[G.i]=f}
-function show(id){['home','play','done','mp','mpg','mpe'].forEach(s=>$(s).hidden=s!==id);if(id!=='play'){clearTimeout(growT);clearTimeout(growW);$('grow').hidden=true}if(id==='home'){$('deco').hidden=true;DM.boost=0;DM.x=null;DM.tx=null}scrollTo(0,0)}
+function show(id){['home','play','done','mp','mpg','mpe'].forEach(s=>$(s).hidden=s!==id);if(id!=='play'){clearTimeout(growT);clearTimeout(growW);$('grow').hidden=true}if(id!=='play'){$('deco').hidden=true;DM.boost=0;DM.x=null;DM.tx=null}scrollTo(0,0)}
 function start(k,items){
  items=items||(k==='daily'?dailyPick(today()):draw(k,7));
  flakes=[];const seed=(Math.random()*2147483647)|0;G={k,items,i:0,pts:0,res:[],date:today(),plan:plan(seed),seed};setLum();show('play');next();
@@ -1029,7 +1029,7 @@ const MP=(()=>{
 drawHome();refresh();
 }
 </script>
-<script>(function(){var B="5f01213fc8f2",K="gnUpd";function chk(){if(document.hidden)return;
+<script>(function(){var B="6e674387b9bc",K="gnUpd";function chk(){if(document.hidden)return;
 fetch("version.json?t="+Date.now(),{cache:"no-store"}).then(function(r){return r.ok?r.json():null}).then(function(j){
 if(!j||!j.v||j.v===B)return;var h=document.getElementById("home");if(h&&h.hidden)return;
 try{if(sessionStorage.getItem(K)===j.v)return;sessionStorage.setItem(K,j.v)}catch(e){}
