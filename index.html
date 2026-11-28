@@ -413,8 +413,8 @@ select,input{background:light-dark(rgb(255 255 255/.6),rgb(5 8 22/.42))!importan
 <div id="grow" role="dialog" aria-label="Your tree grew" hidden></div><div id="rays" aria-hidden="true"></div><div id="cpop" aria-hidden="true"></div><div class="deco" id="deco" aria-hidden="true" hidden></div><canvas id="fx" aria-hidden="true"></canvas><div id="flash" aria-hidden="true"></div>
 <script>window.GN_FIREBASE={"apiKey": "AIzaSyBDFR42M3I8JmpVYx52y4lBVN57CvUw4ok", "authDomain": "chokmah-garden.firebaseapp.com", "databaseURL": "https://chokmah-garden-default-rtdb.asia-southeast1.firebasedatabase.app", "projectId": "chokmah-garden", "storageBucket": "chokmah-garden.firebasestorage.app", "messagingSenderId": "868718706390", "appId": "1:868718706390:web:de0744340b2bdcf0df5377"};</script>
 <script src="room.js?v=362dac8112"></script>
-<script src="data.js?v=c6af6d1238"></script>
-<script src="engine.js?v=017524b68f"></script>
+<script src="data.js?v=bea8d1e001"></script>
+<script src="engine.js?v=7c0effae2e"></script>
 <script>
 {
 const $=id=>document.getElementById(id);
@@ -804,7 +804,7 @@ function spotifyURL(p,a){
  const ar=a.song?a.song.ar.map(k=>ARN[k]).join(' '):(p.g.startsWith('art:')?ARN[p.g.slice(4)]||'':p.g==='hymn'?'hymn':'');
  return 'https://open.spotify.com/search/'+encodeURIComponent(((a.song?a.song.bare:a.name)+' '+ar).trim());
 }
-let KJV=window.GN_KJV||{};if(!window.GN_KJV)try{fetch('kjv.json?v=8e91d5a358').then(r=>r.ok?r.json():{}).then(j=>{KJV=j||{}}).catch(()=>{})}catch(e){}
+let KJV=window.GN_KJV||{};if(!window.GN_KJV)try{fetch('kjv.json?v=7759f2f141').then(r=>r.ok?r.json():{}).then(j=>{KJV=j||{}}).catch(()=>{})}catch(e){}
 function pickInfo(p,a){
  if(p.cat==='w')return `<p class="pinfo"><a href="${spotifyURL(p,a)}" target="_blank" rel="noopener">Give your pick a listen →</a> <span class="rf">${esc(a.song?a.song.bare:a.name)} on Spotify</span></p>`;
  if(!a.ref&&!a.note)return '';
@@ -1029,7 +1029,7 @@ const MP=(()=>{
 drawHome();refresh();
 }
 </script>
-<script>(function(){var B="37c6b674f784",K="gnUpd";function chk(){if(document.hidden)return;
+<script>(function(){var B="4efe2d5b3fca",K="gnUpd";function chk(){if(document.hidden)return;
 fetch("version.json?t="+Date.now(),{cache:"no-store"}).then(function(r){return r.ok?r.json():null}).then(function(j){
 if(!j||!j.v||j.v===B)return;var h=document.getElementById("home");if(h&&h.hidden)return;
 try{if(sessionStorage.getItem(K)===j.v)return;sessionStorage.setItem(K,j.v)}catch(e){}

@@ -3,7 +3,7 @@ const RAW=`
 S^ld^1^^You Say^6Up545NUflOiXo8cEraH49
 S^ld^1^^Rescue^7r9kOxiNDnkAg5QKqtyjVk
 S^ld^2^^Trust in You^7tgdDDf9thHbkQZCxAcaGt
-S^ld,ak^2^m^How Can It Be|How Can It Be?
+S^ld,ak^2^m^How Can It Be|How Can It Be?^27wkiHSSNOB0TyfXzNziaD
 S^ld^2^^Thank God I Do^3CHBC2oSwZOYjbhxAorkl7
 S^ld^3^^Look Up Child
 S^ld^3^p^Still Rolling Stones
@@ -19,7 +19,7 @@ S^ld^5^^Remember
 S^ld^5^^Here's My Heart
 S^ld^5^^Salt & Light|Salt and Light
 S^ld^6^^Your Wings
-S^ak,ld^3^^Time
+S^ak,ld^3^^Time^2OXWcPKO4Bzo4O17OvGkD0
 S^mcm^1^^Promises^0aZFEiDKLK2B4gzPaGCZVm
 S^ew,mcm^1^^Jireh^1goiRWxiG3GTlODrdDZ7NR
 S^mcm^4^p^Joyful, Joyful, We Adore Thee|Joyful Joyful
@@ -112,99 +112,99 @@ S^hu,taya^1^^Oceans (Where Feet May Fail)^3nyvIJisyUAa06DNf4vjWg
 S^hu,taya^2^^Touch the Sky^58yhHre6kOePZPD15hZWgP
 S^hu^2^^So Will I (100 Billion X)^1IagKG5ZPo1LvnKHQQ1P06
 S^hu,taya^2^p^Another in the Fire^61qO4kGJUDewOwM73MBP0W
-S^hu,ur^2^m^Hosanna
+S^hu,ur^2^m^Hosanna^5VlojXyAGM1q9ke2ybxrVT
 S^hu^2^^From the Inside Out^3b9nwrlK3YZ0DrX7LvZZ9g
 S^hu^2^^The Stand^0pG6ujrm7d4TxoGXWVOMTu
-S^hu^3^^Lead Me to the Cross
-S^hu^3^^Take Heart
-S^hu^3^p^Wonder
-S^hu^3^^Scandal of Grace
-S^hu^3^^Even When It Hurts (Praise Song)
-S^hu^4^^Relentless
-S^hu^4^^Highlands (Song of Ascent)
-S^hu^4^^Prince of Peace
-S^hu^3^^Good Grace
-S^hu^4^^Know You Will
-S^hu^3^^Whole Heart (Hold Me Now)
-S^hu^3^p^One Way
-S^hu^5^^Search My Heart
-S^hu^4^p^Break Free
-S^hu^4^^Shadow Step
-S^hu^5^^Captain
+S^hu^3^^Lead Me to the Cross^7i2ZmmyLzE7NcFAJl30mKY
+S^hu^3^^Take Heart^3SWV0KBJBZJrchmf6GGWCD
+S^hu^3^p^Wonder^5ffsmOjdQ2R3Te0Sy4kVWw
+S^hu^3^^Scandal of Grace^0st2C7aLz9xkr7JyshhUHK
+S^hu^3^^Even When It Hurts (Praise Song)^1kpy7ROp4LAxi6gPhTWTl9
+S^hu^4^^Relentless^4g4AI8wzRw9zpTEhVfN1C2
+S^hu^4^^Highlands (Song of Ascent)^0TubePXZPzN8s4tfMl4jq0
+S^hu^4^^Prince of Peace^2t5kQxrrr7W7sKvwocOt3c
+S^hu^3^^Good Grace^7vguHtlnxh7dwMxc2VK8Gv
+S^hu^4^^Know You Will^758pVpyAPaFWlZQAoB0UYt
+S^hu^3^^Whole Heart (Hold Me Now)^0aAmEEoGORpske3dACUPF2
+S^hu^3^p^One Way^6BpFiU3t328roKEeeYWcXp
+S^hu^5^^Search My Heart^45x7KgzwQkytwJCzkiboOT
+S^hu^4^p^Break Free^2wJtDncFQuaq6OviaFNME3
+S^hu^4^^Shadow Step^3cGdAx5f7xUX0kwzTfgc0y
+S^hu^5^^Captain^3YWY2vDpD4ygZRMW9u0bby
 S^hyf^1^p^Alive^09dOS0pqQsYMwCZ5C0rhXI
 S^hyf^1^p^Wake^5a3m7oIDLcQgKN4YpnYuE7
 S^hyf^2^p^This Is Living^366pHoFPCkqh0tSLSeIaSn
 S^hyf^2^^Sinking Deep^3QntQwzIBV704yqCHLLmyH
-S^hyf^3^p^Real Love
-S^hyf^3^p^Every Little Thing
-S^hyf^3^^Love Won't Let Me Down
-S^hyf^3^p^P E A C E|PEACE
-S^hyf^4^p^Best Friends
-S^hyf^5^^Uncomplicated
-S^hyf^4^^Where You Are
+S^hyf^3^p^Real Love^3B4Pnw5qBbvu8YXKqAk9Z3
+S^hyf^3^p^Every Little Thing^46wFvPPxvhn3L0pphiSo8i
+S^hyf^3^^Love Won't Let Me Down^50Y5DKzkMsTws48NvpuN5s
+S^hyf^3^p^P E A C E|PEACE^1oWY2dTmoFy4OxgNOuZaM7
+S^hyf^4^p^Best Friends^0s9o5zNpoRcYkXOVeLASCa
+S^hyf^5^^Uncomplicated^2M5GIV7DLEpXDqYdUl2TKL
+S^hyf^4^^Where You Are^70PXtRywUVp784KF3teG26
 S^hw^1^^What a Beautiful Name^0t63MSEFmHcfglXS6vDwqQ
 S^hw^1^p^Mighty to Save^4nGDKwMpg0HZdGOMgCHF9u
 S^hw^1^^Cornerstone^445AQlPNuZuN1Y7g1qTQCx
 S^hw^2^^Shout to the Lord^54YVaGWx0y4wKTeCoXqaIj
 S^hw^2^^Who You Say I Am^0jBu6T5GgOekdHuXA5hVQM
-S^hw,ur^2^m^King of Kings
+S^hw,ur^2^m^King of Kings^0KzY8h4ReWfvp6QruM4hof
 S^hw^2^^This I Believe (The Creed)^2nqtqJYNSanofaGLCGmjMT
-S^hw^3^^Forever Reign
-S^hw^3^^Desert Song
-S^hw^3^^O Praise the Name (Anástasis)|O Praise the Name (Anastasis)
-S^hw^3^^Broken Vessels (Amazing Grace)
-S^hw^3^^Man of Sorrows
-S^hw^3^^Christ Is Enough
-S^hw^3^^Seasons
-S^hw^4^^Glorious Ruins
-S^hw,cc^5^^Hope of the Ages
-S^hw^4^^Saviour King|Savior King
-S^hw^4^^None but Jesus
-S^hw^4^^Came to My Rescue
-S^hw^4^^Behold (Then Sings My Soul)
-S^hw^4^^Jesus I Need You
-S^hw^3^^Still
-S^hw^4^^Touch of Heaven
-S^hw^4^^Power of Your Love
-S^hw^3^^Lord I Give You My Heart
-S^hw^4^p^God Is Able
-S^hw^5^^Grace to Grace
-S^ak,bw,mcm^3^m^Prepare the Way
+S^hw^3^^Forever Reign^3Z3mh8aMW1vGBhsSkKT8yR
+S^hw^3^^Desert Song^6hECXTux8nBYPNDjQHD6jq
+S^hw^3^^O Praise the Name (Anástasis)|O Praise the Name (Anastasis)^0QtYlr0TOfrEU4ONDUNA29
+S^hw^3^^Broken Vessels (Amazing Grace)^4Zc5RZrsYWYRCqlKEEKSAn
+S^hw^3^^Man of Sorrows^7kRc5L0VqfA2q8DCcyBgsZ
+S^hw^3^^Christ Is Enough^6ylhMPeBV9kF5dYvBAO2tQ
+S^hw^3^^Seasons^5DH8wWNv8a0ciF5EVcBIDU
+S^hw^4^^Glorious Ruins^7GoYovaEPv6dpjxbiPVN4s
+S^hw,cc^5^^Hope of the Ages^1hwnzv8uGFUuuFFoabWfFP
+S^hw^4^^Saviour King|Savior King^6WmgpA5OnX0XjrevxLgefW
+S^hw^4^^None but Jesus^6V9UgQxfp0dWCG1pO6OA2A
+S^hw^4^^Came to My Rescue^5o0hty7z9kqyn7t92oique
+S^hw^4^^Behold (Then Sings My Soul)^67EUNdT0L9l4ViEsyOuZJT
+S^hw^4^^Jesus I Need You^2o2o8Te356JJtPjeEojLhZ
+S^hw^3^^Still^524KQvc46Y1X6HRomMKoBJ
+S^hw^4^^Touch of Heaven^1adwtfjdeCjDj5ZHCyhzYW
+S^hw^4^^Power of Your Love^4xqLymufRznTXGpfjXOrsU
+S^hw^3^^Lord I Give You My Heart^0GwVNKyG6DSL8gc72S4HGo
+S^hw^4^p^God Is Able^5dTg6siS27l7o2ZYWdkFoq
+S^hw^5^^Grace to Grace^40cxweesWseMXtISFrxK54
+S^ak,bw,mcm^3^m^Prepare the Way^1oGgtz59clMb0vLY9U1MKb
 S^ak^2^^Thank You So Much Jesus^4isb96lpcN6o7wJSnx4uHT
-S^ak^3^^Without You
-S^ak^4^^Yesterday, Today, & Tomorrow|Yesterday Today and Tomorrow
-S^ct,ak^3^mp^Made to Worship
-S^ak^4^^Pray You Never Leave
-S^ak^5^^Free at Last
-S^ak^5^^What Would It Be Like?|What Would It Be Like
-S^ak^5^^Still Worthy
-S^ak^5^^Whole World
-S^ak^5^^My Last Refrain
+S^ak^3^^Without You^5s8sOdSoJFcahdaqPjAsD1
+S^ak^4^^Yesterday, Today, & Tomorrow|Yesterday Today and Tomorrow^1TFikXJ70MNk5EHzPb7rKJ
+S^ct,ak^3^mp^Made to Worship^0ghqNmSG3oWgQYuOJ0hcyV
+S^ak^4^^Pray You Never Leave^al:2M55eh17kBBQURAGpGuDrA
+S^ak^5^^Free at Last^al:2M55eh17kBBQURAGpGuDrA
+S^ak^5^^What Would It Be Like?|What Would It Be Like^6POSlk9gkBX0o6IabrEt5y
+S^ak^5^^Still Worthy^1K0pQD9gr45YpJGfPSxuV7
+S^ak^5^^Whole World^257jKlP8fIOyv7ZcqkSYhS
+S^ak^5^^My Last Refrain^3yn69ddK2Y3yUE6vJqDVyG
 S^ak^1^^Hallelujah (If Not For Your Love)^5u3lEROF6PYAItJ7nPUPHS
-S^ak^5^^Beautiful
-S^ak^5^^In Your Eyes
-S^ak,mcm^5^m^Real Thing
-S^ak^5^^Trust You In All Things
+S^ak^5^^Beautiful^2RP1yEc1HCXOVj0sLyqWh0
+S^ak^5^^In Your Eyes^al:2M55eh17kBBQURAGpGuDrA
+S^ak,mcm^5^m^Real Thing^16ZIdihAOncuA5S1HBbFRD
+S^ak^5^^Trust You In All Things^al:18Hct0jByiTdj11FOGwCir
 S^taya^2^^For All My Life^49gozhH6p55OJaH6s1zk2c
-S^taya^3^^Getaway
+S^taya^3^^Getaway^3ei7d5IGaSabSPFqyLUpwE
 S^taya^1^p^Gonna Be Good^5VDc4qtuFTbBmVyBeAEbJg
-S^taya^3^p^Worship!|Worship
-S^taya^4^^Simple Phrase
-S^taya^4^^Burn the Bridges
-S^taya^3^^Come Into the Light
+S^taya^3^p^Worship!|Worship^3uJ539yuwsbaVh2CIAp4Cr
+S^taya^4^^Simple Phrase^40qhVgofNyNm86szSXNQBi
+S^taya^4^^Burn the Bridges^3xPnjwff677eIzzzcV5M0P
+S^taya^3^^Come Into the Light^2HVtOC86dcoi2a8FxZIx0q
 S^taya^4^^Take Heart (Again)
-S^taya^4^^All Eyes on You
-S^taya^4^^All About Jesus
-S^taya^4^^One and Only
+S^taya^4^^All Eyes on You^al:1mVMcsbi2aYFXH9AWm7O95
+S^taya^4^^All About Jesus^0x5ugBYRJdwofLoiPoKsYq
+S^taya^4^^One and Only^172JQZdktreqeypBvOuXNL
 S^taya^4^^The Glory of God
 S^taya^5^^The Reminder^4ud36QHbIFElKuP3tgGPxB
 S^taya^5^^Child of God
-S^taya^5^^Jesus Over Everything
-S^taya^5^^In This Place
-S^taya^5^^Lover of My Soul
-S^taya^5^^Not Ashamed
-S^taya^5^^Glory Hallelujah
-S^taya^5^^My Refuge
+S^taya^5^^Jesus Over Everything^4gv03yikFUrqD4CxGlSaxB
+S^taya^5^^In This Place^041zAsgGw0Lnf7BVNTZ9CD
+S^taya^5^^Lover of My Soul^3Cf7Vge8tOC1Z8W69EcUBl
+S^taya^5^^Not Ashamed^4OsJSilw4XtNEO45bOTf1m
+S^taya^5^^Glory Hallelujah^1zjfwSp4Ft7cTvrslT5MF6
+S^taya^5^^My Refuge^3OmJKkS77SOmWrgXIN1bZf
 S^ct^1^^How Great Is Our God^0jOSpB2zK2O0SNxj8ZT5lp
 S^ct^1^^Good Good Father^1mWdyqs6Zvg8b1lKjDc8yB
 S^ct^1^p^Our God^47AZ8Cb4MsOT4lCk4PcGQf
@@ -303,38 +303,38 @@ S^msc^5^p^Miracle
 S^msc^3^^Fountain (I Am Good)
 S^msc^4^^Different
 S^msc^5^^Mi Salvador
-S^hw^4^^Remembrance (Communion Song)|Remembrance
-S^hw^4^^Let There Be Light
-S^hw^4^^The Passion
-S^hw^3^^New Wine
-S^hw^4^^Awake My Soul
-S^hw^3^^This Is Our God
-S^hw^4^^Blessed
-S^hw^3^^My Redeemer Lives
-S^hw^4^^Hear Our Praises
-S^hw^5^^Better Than Life
-S^hw^3^^Worthy Is the Lamb
-S^hw^3^^The Potter's Hand
+S^hw^4^^Remembrance (Communion Song)|Remembrance^4W7FrXnVa94NReOTOgbLKF
+S^hw^4^^Let There Be Light^61hY3OZW9JT9W90iYMdyn5
+S^hw^4^^The Passion^63DFnOKeLRe91ivEnrVUYG
+S^hw^3^^New Wine^3A2W7jBX59x1g6YM4og73Z
+S^hw^4^^Awake My Soul^6AvQ48ohekN6f2eqZCYICX
+S^hw^3^^This Is Our God^1Bgg7FHB8ou5yv4Gl1Nq2a
+S^hw^4^^Blessed^3xrxnUxcI3iULC2H0BKV5O
+S^hw^3^^My Redeemer Lives^0bJXp4EgTAcQ4IXJ3QBm2e
+S^hw^4^^Hear Our Praises^1Pv97fSxugp5bYyOEZRcaD
+S^hw^5^^Better Than Life^3gvi4BkRlIeHtSrZZ3y2fs
+S^hw^3^^Worthy Is the Lamb^2K5gnanl9QVg0G2GpbyJGX
+S^hw^3^^The Potter's Hand^1ncLvlcKzQS1y2oBxwI4iU
 S^hw^3^^At the Cross^1AnvnQ11FC3N4TAkdkwJ7A
-S^hw^3^m^Stronger (Hillsong)|Stronger
-S^hw^4^^Jesus, What a Beautiful Name|Jesus What a Beautiful Name
-S^hw^5^^God He Reigns
-S^hw^4^^No Other Name
-S^hw^5^^Calvary
-S^hw^5^^Transfiguration
-S^hu^3^^With Everything
-S^hu^3^^Take It All
-S^hu^4^p^Salvation Is Here
-S^hu^4^p^Everyday
-S^hu^5^^Arms Open Wide
-S^hu^4^^Aftermath
-S^hu^5^^Tapestry
-S^hu^4^^Empires
-S^hu^4^^Here Now (Madness)
-S^hu^5^^Not Today
-S^hu^5^^Heart Like Heaven
-S^hu^4^^As You Find Me
-S^hu^5^^Street Called Mercy
+S^hw^3^m^Stronger (Hillsong)|Stronger^2ySZdAhiUkf6ware5YxM2d
+S^hw^4^^Jesus, What a Beautiful Name|Jesus What a Beautiful Name^5LFYxz9Q6I6HvQm0XGN5fU
+S^hw^5^^God He Reigns^1FK0qPzU3FdgnEloPUHrVk
+S^hw^4^^No Other Name^1hEYLyKGeWWqvpXL39I0Vf
+S^hw^5^^Calvary^6PLVlhL4p9CV5OPWkgjpRd
+S^hw^5^^Transfiguration^61ELFHIGUIGnX2Yybyv6JY
+S^hu^3^^With Everything^4gSO6DN9fkcaShoYYTakNq
+S^hu^3^^Take It All^1XkgPhX1D78Gyx0y24wCv2
+S^hu^4^p^Salvation Is Here^13BaCXl44Kng0dk2cj5WWw
+S^hu^4^p^Everyday^10hPt6v5t5Q939rsRQkKoV
+S^hu^5^^Arms Open Wide^2qXVk2BzsZgCei5Pe1IeR7
+S^hu^4^^Aftermath^2gffdNFh2aPyfJgxPtZlUL
+S^hu^5^^Tapestry^6ekuKI21JLYt48Su7DOxeG
+S^hu^4^^Empires^1fisxvkySncf03rBtyj8hX
+S^hu^4^^Here Now (Madness)^5F4vyUWtazgNhmlhE1fYfk
+S^hu^5^^Not Today^33Nyq9QfKCXEQtzeg22vg7
+S^hu^5^^Heart Like Heaven^2iZf5CLQbRVYDyuajSa60F
+S^hu^4^^As You Find Me^3D5FsQuf6UBdr6uDwGivXQ
+S^hu^5^^Street Called Mercy^5Yqay845GXkcO2BRl3kfX1
 S^bw^4^p^Ain't No Grave|Aint No Grave
 S^bw^4^^Be Enthroned
 S^bw^5^^You Don't Miss a Thing
@@ -363,7 +363,7 @@ S^pw^4^m^Beautiful (Phil Wickham)|Beautiful
 S^cw^4^^Let Them Fall in Love
 S^cw^5^^More Than What I Wanted
 S^cw^4^^Worthy of It All
-S^hyf^4^p^Highs & Lows|Highs and Lows
+S^hyf^4^p^Highs & Lows|Highs and Lows^4PvevgVjan0gQGyJ665gye
 S^ew^4^^Nothing Is Wasted
 S^ew^5^^Grace So Glorious
 S^ew^5^^Last Word
@@ -395,25 +395,25 @@ S^ncw^5^^Supply^1HGWFhaMf73CqygUUeGIiT
 S^ncw^5^^Your Lavish Love^2fPAgsT74HFOkCDzSEdl3c
 S^ncw^4^^As He Is, So Are We|As He Is So Are We^16EfTG9XheE8x1qIK9xFxU
 S^ncw^5^^Whom Jesus Loves^3dfiDnBYd14D9g4GE7kTaJ
-S^hw^4^^Love So Great
-S^hw^5^^One Thing
-S^hw^4^^Fresh Wind
-S^hw^5^^No One but You
-S^hw^5^^With Us
-S^hw^5^^Rise
-S^hw^5^^Peace Has Come
-S^hw^4^^Open Heaven (River Wild)|Open Heaven
-S^hw^5^^In Control
-S^hw,bw^5^m^Elohim
-S^hw^5^^Prince of Heaven
-S^hw^4^^God So Loved
-S^hw^5^^Be Still (Hillsong)|Be Still
-S^hw^5^^You Are Life
-S^hw^5^^Dawn
-S^hw^5^m^Come Alive (Hillsong)|Come Alive
-S^hw^5^^See the Light
-S^hw^5^^Upper Room
-S^hw^5^^Every Breath
+S^hw^4^^Love So Great^2KUDKyKF88FswaBJeNeAd1
+S^hw^5^^One Thing^4VWVupm8eU3Njc7YIQHs0F
+S^hw^4^^Fresh Wind^09BjxM7VnScaBOn8zfBpQ2
+S^hw^5^^No One but You^321zjhVbOK9JLmxj1Jm6hS
+S^hw^5^^With Us^7Eh5N5spTcJ6iaXYefadRj
+S^hw^5^^Rise^3rdqcjnRmsyD2z5gve4XHr
+S^hw^5^^Peace Has Come^2aO969wLMTigiozj1qDU74
+S^hw^4^^Open Heaven (River Wild)|Open Heaven^6YE9YGy7thkmI4kqUv6J2N
+S^hw^5^^In Control^1BESfhi4kRcNeCFOMj1XHW
+S^hw,bw^5^m^Elohim^72dVtoDS91Vrpetli9WpFC
+S^hw^5^^Prince of Heaven^7IZF13jeNGS6zMymw80Zn9
+S^hw^4^^God So Loved^06eSfcJthGs9loBKSCJc6t
+S^hw^5^^Be Still (Hillsong)|Be Still^0M6NvYIXg9XLEJN58SZs1r
+S^hw^5^^You Are Life^67WN57fCwIx4EtX7RWpzhK
+S^hw^5^^Dawn^3eYMQ2q4z3QDxVR26G8ndz
+S^hw^5^m^Come Alive (Hillsong)|Come Alive^78pKjOa4gToyRxn3cVc7Sa
+S^hw^5^^See the Light^0PBeaUlOp135yQJrbFJS3t
+S^hw^5^^Upper Room^6RoBd9uO4monXHl5LyEtsn
+S^hw^5^^Every Breath^2zMZuPCY4ZCB0Zj3iAx5vT
 S^ew^5^^Kingdom Come^2djeGIAIx7PIzYXlk3xwWZ
 S^ew^4^^Won't Stop Now|Wont Stop Now
 S^ew^4^^Here Comes Heaven
@@ -503,7 +503,7 @@ S^bw^5^^Holy Song
 S^bw,bjj^5^^He Has Done Great Things
 S^bw^5^^If the Lord
 S^bw,kj^4^^Even Though I Walk
-S^bw,ak^5^^My Hallelujah
+S^bw,ak^5^^My Hallelujah^26JBvtu0tW03VLRMlz0c5z
 S^bw^5^^Another Like You
 S^bw^5^^The Christ and Cornerstone
 S^bw^5^^He's the One|Hes the One
@@ -761,22 +761,22 @@ S^cc^5^^Heaven Fall
 S^cc^5^^The Commission
 S^cc^5^^Be Glad
 S^cc^5^^Good (Can't Be Anything Else)|Good
-S^hyf^5^^Falling Into You
-S^hyf^4^^Let Go
-S^hyf^5^^Just Jesus
-S^hyf^5^m^Heart of God (Young & Free)|Heart of God
-S^hyf^5^^Never Have I Ever
-S^hyf^5^^World Outside Your Window
-S^hyf^5^^As I Am
-S^hyf^4^^Phenomena (DA DA)|Phenomena
-S^hyf,bw^5^m^Back to Life
-S^hyf^5^^Energy
-S^hyf^5^^Pursue
-S^hyf^5^^To My Knees
-S^hyf^5^m^First Love (Young & Free)|First Love
-S^hyf^5^^Lord Send Revival
-S^hyf^5^^Gracious Tempest
-S^hyf^5^^Marching On
+S^hyf^5^^Falling Into You^1LnWP3jmaUFVj5ee6eFDoq
+S^hyf^4^^Let Go^5jy1ElgUGDHpuvW3mwN9Oo
+S^hyf^5^^Just Jesus^4a6gCiN3y65Dg1U3aTkFNW
+S^hyf^5^m^Heart of God (Young & Free)|Heart of God^1JYqN4Cv7vZTrwlSHWNG0Y
+S^hyf^5^^Never Have I Ever^2bNxE0corUIlCcOWrliULJ
+S^hyf^5^^World Outside Your Window^6IYrkhrJZlDUcUpz0sl21d
+S^hyf^5^^As I Am^0mLk4AuHy7DTkoChwaYRJc
+S^hyf^4^^Phenomena (DA DA)|Phenomena^1edUPN95gftr36ux77UEH0
+S^hyf,bw^5^m^Back to Life^2FzCY4lcq7180bWLijHkJ9
+S^hyf^5^^Energy^6Dby05wKZRQvtqScGUt3Xa
+S^hyf^5^^Pursue^1oLCGTRHCAPm0KylTP16I7
+S^hyf^5^^To My Knees^12Nbr3tbxdEyqjcHjxNM0O
+S^hyf^5^m^First Love (Young & Free)|First Love^5nM6KEv0jER2mlaU8mosaw
+S^hyf^5^^Lord Send Revival^1QA9dRDVRQ3GF2zSM1hpwi
+S^hyf^5^^Gracious Tempest^77esMNHouutLyz0o4Mj6FH
+S^hyf^5^^Marching On^4hlzUfLHRCr9HKXCBpCPZf
 W^art:msc^Name a Mosaic MSC album or EP^Mosaic MSC's first album, MSC (Live in LA), was recorded at the historic Wiltern Theater on 24 May 2014.^Glory & Wonder|Glory and Wonder~1;MSC (Live in LA)|MSC Live in LA|MSC~3;Human~3;This Is How I Thank the Lord~3;Heaven~3;Tiembla~4;Sunday, Vol. 1|Sunday Vol 1|Sunday~5;Different (Live at Mosaic)|Different~5
 S^ur^4^^The Joy of Surrender
 S^ur,bjj,bw^4^m^Our Father
@@ -808,7 +808,7 @@ S^seu^3^^When You Arrived
 S^seu^4^^Slower I Go
 S^seu^4^^Won't Look Back|Wont Look Back
 S^seu^4^^Familiar Song
-S^seu,taya^4^m^Walk With You
+S^seu,taya^4^m^Walk With You^0P1FZdBBavKs10SquHm2Fz
 S^seu^5^^Dwell
 S^seu^5^^Fruit Takes Time
 S^ag^1^^Eyes Locked on the King^7DEwpeWvezPMN0laniQQG7
@@ -934,7 +934,7 @@ S^ag^5^^Window for Glory to Slide In
 S^ag,ur^5^^Love Note
 S^ag^5^^Privilege
 S^ag^5^^Obsessed
-S^ag^5^^Behold the King
+S^ag^5^^Behold the King^7mhgoLADF2GAdYFJQ4SaTr
 S^ag^5^^Everything You Ever Wanted
 S^ag^5^^Why So Serious
 S^ew,th^2^^Jesus Be the Name
@@ -1172,6 +1172,41 @@ S^er^5^^Streetlights
 S^er^5^^Fake Love
 S^er^5^^Where Oh Where
 S^er^4^^Believe It
+S^ak^4^^Happy to Be Here^al:548SBeYbBBay8CuJSGgbfu
+S^ak^4^^Hollow Grave^al:4yNbmNxjROUUaZcjQMa57p
+S^ak^4^^Saturday^2qHzx9pQ4rxDGkauEEkjd7
+S^ak^4^m^Yahweh (Aodhán King)|Yahweh^al:548SBeYbBBay8CuJSGgbfu
+S^ak^4^^Waiting to See What God Does|Just Waiting to See What God Does^2QTCR2Q9V2yr8Xu1WzPpYT
+S^ak^5^^Holy Jesus^4njL2a4awkOaITBtIJgRAU
+S^ak^5^^Convinced^3XGR84lG0K4uTHde3fW2E9
+S^ak^5^^Separate^al:548SBeYbBBay8CuJSGgbfu
+S^ak^5^^Never^al:548SBeYbBBay8CuJSGgbfu
+S^ak^5^^God Thing^2hhu9ggD3Q5CvdPckMDA1m
+S^ak^5^^Guiding Light^al:548SBeYbBBay8CuJSGgbfu
+S^ak^5^^Song of Thanksgiving^1dqyWKC9XTP03pqhFd3zXU
+S^ag,ak^5^^Deep^0THcqMeQa1NSviF64C5NG5
+S^ag,ak^5^^Honest Thoughts
+S^ag,ak^5^^Father God^3wa22hzSHvJxXs4dIu7g0j
+S^ag,ak^5^^U R Everything|You Are Everything^76M6puOExwaIykDk0Lo0K8
+S^th^5^^I'll Be Ready|I Will Be Ready^al:5Ux7nchzxdGHPkr10dk6AP
+S^th^5^^Hidden Here^al:5Ux7nchzxdGHPkr10dk6AP
+S^th^5^^Music to My Ears^al:5Ux7nchzxdGHPkr10dk6AP
+S^th^5^^Break the Bottle^al:5Ux7nchzxdGHPkr10dk6AP
+S^th^5^^Obey^al:5Ux7nchzxdGHPkr10dk6AP
+S^th^5^^Togetherness^al:5Ux7nchzxdGHPkr10dk6AP
+S^th^5^^Tears^al:5Ux7nchzxdGHPkr10dk6AP
+S^th^5^^Vow My Love^0HS1BXJT2wLFxT4jmR62P3
+S^th^5^^The Lord Is Here
+S^th^5^^Intercession
+S^th^5^^Just One More Time
+S^th^5^^Your Presence
+S^th^5^^You Mean Everything
+S^th^4^m^Fire in My Bones (Tiffany Hudson)|Fire in My Bones
+S^th^4^^In Your House
+S^th^4^^Desperate for Jesus
+S^th^4^^Here Comes the Church
+S^th^4^^Walk With Me
+S^th^4^^All Authority
 
 // ARTIST extras
 W^art:ld^Name a Lauren Daigle album^Behold (2016) is Lauren Daigle's Christmas album; Look Up Child (2018) carried “You Say”.^How Can It Be~1;Look Up Child~1;Behold~2;Lauren Daigle~2
@@ -1205,6 +1240,7 @@ W^hymn^Name a hymn writer^John Newton, who wrote “Amazing Grace”, had captai
 W@2026-11-25^hymn^Name a hymn from Olney Hymns by John Newton or William Cowper^Olney Hymns (1779) held 348 hymns: William Cowper wrote 67 and John Newton, curate of Olney, the other 281.^Amazing Grace|Faith's Review and Expectation~1;How Sweet the Name of Jesus Sounds|The Name of Jesus~2;Glorious Things of Thee Are Spoken|Zion, or the City of God~2;God Moves in a Mysterious Way|Light Shining Out of Darkness~2;There Is a Fountain|There Is a Fountain Filled with Blood|Praise for the Fountain Opened~3;O for a Closer Walk with God|Oh for a Closer Walk with God|Walking with God~4;Jesus, Where'er Thy People Meet|Jesus Where Ever Thy People Meet~5;Hark, My Soul! It Is the Lord|Hark My Soul It Is the Lord|Lovest Thou Me~5;Sometimes a Light Surprises|Joy and Peace in Believing~6;Begone, Unbelief|Begone Unbelief~6;Though Troubles Assail Us|Though Troubles Assail|The Lord Will Provide~6;Come, My Soul, Thy Suit Prepare|Ask What I Shall Give Thee~6
 W@2026-11-26^hymn^Name a hymn written by a woman (other than Fanny Crosby)^Cecil Frances Alexander wrote “All Things Bright and Beautiful” and “Once in Royal David's City” for Hymns for Little Children (1848), to teach the Apostles' Creed.^Jesus Loves Me~1;Turn Your Eyes Upon Jesus|Turn Your Eyes upon Jesus~1;Nearer, My God, to Thee|Nearer My God to Thee~2;Just As I Am|Just As I Am, Without One Plea~2;All Things Bright and Beautiful~2;Take My Life and Let It Be|Take My Life~2;When We All Get to Heaven~3;His Eye Is on the Sparrow~3;Morning Has Broken~3;I Need Thee Every Hour~3;In the Bleak Midwinter~3;Jesus Paid It All~3;Have Thine Own Way, Lord|Have Thine Own Way~4;Be Still, My Soul|Be Still My Soul~4;'Tis So Sweet to Trust in Jesus|Tis So Sweet to Trust in Jesus~4;Beneath the Cross of Jesus~4;Once in Royal David's City~4;I Love to Tell the Story~4;Grace Greater Than Our Sin|Grace Greater than Our Sin~5;Break Thou the Bread of Life~5
 W@2026-11-27^hymn^Name a hymn Keith Getty wrote with Stuart Townend^Keith Getty wrote the tune of “In Christ Alone” and Stuart Townend the words; it was their first song together, in 2001.^In Christ Alone~1;The Power of the Cross|Power of the Cross~2;Speak, O Lord|Speak O Lord~2;O Church, Arise|O Church Arise~3;See, What a Morning|See What a Morning~3;Behold the Lamb|Behold the Lamb (Communion Hymn)~4;Come, People of the Risen King|Come People of the Risen King~4;The Perfect Wisdom of Our God|Perfect Wisdom of Our God~4;Joy Has Dawned|Joy Has Dawned Upon the World~4;Across the Lands~4;My Heart Is Filled with Thankfulness~5;Jesus Is Lord~5;Every Promise~5;Fullness of Grace~5;Father, We Have Sinned|Father We Have Sinned~6;May the Peace of God~6
+W@2026-11-28^hymn^Name a hymn Philip P. Bliss wrote or set to music^Bliss wrote the tune for Horatio Spafford's “It Is Well with My Soul”; his words for “I Will Sing of My Redeemer” were found in his trunk after he died in the Ashtabula train disaster of 1876.^It Is Well with My Soul|It Is Well|When Peace Like a River~1;Hallelujah, What a Saviour!|Hallelujah What a Saviour|Hallelujah What a Savior|Man of Sorrows, What a Name|Man of Sorrows What a Name~1;I Will Sing of My Redeemer~2;Wonderful Words of Life|Sing Them Over Again to Me~2;Let the Lower Lights Be Burning|Brightly Beams Our Father's Mercy~3;Jesus Loves Even Me|I Am So Glad That Our Father in Heaven|I Am So Glad~3;Almost Persuaded~4;Hold the Fort~4;Dare to Be a Daniel~4;The Light of the World Is Jesus|Light of the World Is Jesus|The Whole World Was Lost in the Darkness of Sin~4;Whosoever Heareth|Whosoever Will~5;Once for All|Free from the Law, O Happy Condition|Free from the Law~5;More Holiness Give Me|My Prayer~5;I Gave My Life for Thee~5;Pull for the Shore|Pull for the Shore, Sailor~6;Only an Armour-Bearer|Only an Armor-Bearer|Only an Armour Bearer|Only an Armor Bearer~6
 
 // ===== OLD TESTAMENT =====
 B^Genesis^Name a person in Genesis^Methuselah lived 969 years, the longest lifespan recorded in the Bible (Genesis 5:27).^Adam~1~Genesis 2:7;Eve~1~Genesis 3:20;Noah~1~Genesis 6:8;Abraham|Abram~1~Genesis 12:1;Joseph~1~Genesis 37:3;Isaac~2~Genesis 21:3;Jacob|Israel~2~Genesis 25:26;Sarah|Sarai~2~Genesis 17:15;Cain~2~Genesis 4:1;Abel~2~Genesis 4:2;Esau~3~Genesis 25:25;Rebekah|Rebecca~3~Genesis 24:15;Rachel~3~Genesis 29:6;Leah~3~Genesis 29:16;Lot~3~Genesis 11:27;Ishmael~3~Genesis 16:11;Methuselah~3~Genesis 5:27;Hagar~4~Genesis 16:1;Enoch~4~Genesis 5:24;Laban~4~Genesis 24:29;Judah~4~Genesis 29:35;Benjamin~4~Genesis 35:18;Reuben~4~Genesis 29:32;Seth~4~Genesis 4:25;Melchizedek~4~Genesis 14:18;Potiphar~4~Genesis 39:1;Ephraim~4~Genesis 41:52;Manasseh~4~Genesis 41:51;Tamar~5~Genesis 38:6;Dinah~5~Genesis 30:21;Shem~5~Genesis 6:10;Ham~5~Genesis 6:10;Japheth~5~Genesis 6:10;Lamech~5~Genesis 4:19;Nimrod~5~Genesis 10:8;Abimelech~5~Genesis 20:2;Terah~5~Genesis 11:26;Simeon~5~Genesis 29:33;Levi~5~Genesis 29:34;Dan~5~Genesis 30:6;Eliezer~5~Genesis 15:2;Keturah~6~Genesis 25:1;Zilpah~6~Genesis 29:24;Bilhah~6~Genesis 29:29;Asenath~6~Genesis 41:45;Enosh~6~Genesis 4:26;Jared~6~Genesis 5:18;Kenan~6~Genesis 5:9;Mahalalel~6~Genesis 5:12;Nahor~6~Genesis 11:26;Bethuel~6~Genesis 22:22;Er~6~Genesis 38:3;Onan~6~Genesis 38:4;Perez~6~Genesis 38:29;Tubal-cain|Tubal cain~6~Genesis 4:22;Jubal~6~Genesis 4:21;Issachar~6~Genesis 30:18;Zebulun~6~Genesis 30:20;Naphtali~6~Genesis 30:8;Gad~6~Genesis 30:11;Asher~6~Genesis 30:13
@@ -1320,14 +1356,14 @@ B^Matthew^Name a parable in Matthew^Matthew 13 gathers seven parables of the kin
 B^Matthew^Name something from the Sermon on the Mount^The Sermon on the Mount fills Matthew 5–7 and ends with the wise man who built his house on the rock.^Beatitudes~1~Matthew 5:3–12;Lord's Prayer|Our Father~1~Matthew 6:9–13;Salt of the earth~1~Matthew 5:13;Light of the world~1~Matthew 5:14;Turn the other cheek~1~Matthew 5:39;Blessed are the meek~2~Matthew 5:5;Blessed are the poor in spirit~2~Matthew 5:3;Golden Rule|Do to others~2~Matthew 7:12;Love your enemies~2~Matthew 5:44;Treasures in heaven~2~Matthew 6:20;Do not worry|Consider the lilies~2~Matthew 6:25;Seek first the kingdom~2~Matthew 6:33;Narrow gate~2~Matthew 7:13;Wise and foolish builders~2~Matthew 7:24–27;Do not judge|Judge not~2~Matthew 7:1;Ask, seek, knock~2~Matthew 7:7;Speck and plank|Log in your eye~2~Matthew 7:3;Birds of the air~3~Matthew 6:26;Pearls before swine~3~Matthew 7:6;Wolves in sheep's clothing~3~Matthew 7:15;Go the extra mile~3~Matthew 5:41;City on a hill~3~Matthew 5:14
 B^Matthew^Name something from Matthew's nativity story^Joseph is guided by four dreams in Matthew 1–2, including the warning to flee to Egypt.^Wise men|Magi~1~Matthew 2:1;Star~1~Matthew 2:2;Gold~1~Matthew 2:11;Frankincense~1~Matthew 2:11;Myrrh~1~Matthew 2:11;Herod~1~Matthew 2:1;Bethlehem~1~Matthew 2:1;Flight to Egypt|Egypt~2~Matthew 2:14;Joseph's dream|Dream~2~Matthew 1:20;Angel~2~Matthew 1:20;Massacre of the innocents~3~Matthew 2:16;Nazareth~3~Matthew 2:23;Jerusalem~3~Matthew 2:1;Rachel weeping in Ramah~5~Matthew 2:18
 B^Matthew^Name one of the Twelve as Matthew lists them^Matthew calls himself “Matthew the tax collector” in his own list of the Twelve (Matthew 10:3).^Peter|Simon Peter~1~Matthew 10:2;Andrew~1~Matthew 10:2;James~1~Matthew 10:2;John~1~Matthew 10:2;Matthew|Levi~1~Matthew 10:3;Judas Iscariot|Judas~1~Matthew 10:4;Thomas~2~Matthew 10:3;Philip~2~Matthew 10:3;Bartholomew~3~Matthew 10:3;James son of Alphaeus~4~Matthew 10:3;Thaddaeus~4~Matthew 10:3;Simon the Zealot|Simon the Cananaean~4~Matthew 10:4
-B^Mark^Name a miracle in Mark^Four friends lowered a paralysed man through a roof to reach Jesus (Mark 2:4).^Feeding the 5,000|Feeding the 5000|5000|Feeding of the five thousand~1~Mark 6:30–44;Calming the storm~1~Mark 4:35–41;Walking on water~1~Mark 6:48;Healing the paralytic through the roof~2~Mark 2:3–12;Raising Jairus's daughter~2~Mark 5:41–42;Woman with the issue of blood~2~Mark 5:25–34;Healing blind Bartimaeus|Bartimaeus~2~Mark 10:46–52;Legion|Demons sent into pigs~2~Mark 5:1–20;Feeding the 4,000|Feeding the 4000|4000~3~Mark 8:1–9;Healing a leper~3~Mark 1:40–42;Peter's mother-in-law~3~Mark 1:30–31;Man with the withered hand~3~Mark 3:1–5;Cursing the fig tree~3~Mark 11:12–14;Deaf and mute man|Ephphatha~4~Mark 7:32–35;Blind man at Bethsaida~4~Mark 8:22–25;Syrophoenician woman's daughter~4~Mark 7:25–30;Boy with an evil spirit~4~Mark 9:17–27
+B^Mark^Name a miracle in Mark^Four friends lowered a paralysed man through a roof to reach Jesus (Mark 2:4).^Feeding the 5,000|Feeding the 5000|5000|Feeding of the five thousand|Five loaves and two fish|Loaves and fishes~1~Mark 6:30–44;Calming the storm~1~Mark 4:35–41;Walking on water~1~Mark 6:48;Healing the paralytic through the roof~2~Mark 2:3–12;Raising Jairus's daughter~2~Mark 5:41–42;Woman with the issue of blood~2~Mark 5:25–34;Healing blind Bartimaeus|Bartimaeus~2~Mark 10:46–52;Legion|Demons sent into pigs~2~Mark 5:1–20;Feeding the 4,000|Feeding the 4000|4000|Seven loaves and a few fish~3~Mark 8:1–9;Healing a leper~3~Mark 1:40–42;Peter's mother-in-law~3~Mark 1:30–31;Man with the withered hand~3~Mark 3:1–5;Cursing the fig tree~3~Mark 11:12–14;Deaf and mute man|Ephphatha~4~Mark 7:32–35;Blind man at Bethsaida~4~Mark 8:22–25;Syrophoenician woman's daughter~4~Mark 7:25–30;Boy with an evil spirit~4~Mark 9:17–27
 B^Mark^Name a person in Mark^Only Mark tells of a young man in a linen cloth who fled naked when Jesus was arrested (Mark 14:51–52).^Jesus~1~Mark 1:1;Peter~1~Mark 1:16;John the Baptist~1~Mark 1:4;Herod|Herod Antipas~2~Mark 6:14;Pilate~2~Mark 15:1;Bartimaeus~2~Mark 10:46;Jairus~2~Mark 5:22;Mary Magdalene~2~Mark 15:40;Judas~2~Mark 14:10;James~2~Mark 1:19;John~2~Mark 1:19;Barabbas~3~Mark 15:7;Simon of Cyrene~3~Mark 15:21;Herodias~3~Mark 6:17;Joseph of Arimathea~3~Mark 15:43;Levi~3~Mark 2:14;Andrew~3~Mark 1:16;Salome~4~Mark 15:40;Legion~4~Mark 5:9;Centurion~4~Mark 15:39;Young man who fled naked~5~Mark 14:51–52;Mary the mother of James~5~Mark 16:1;Alexander and Rufus~6~Mark 15:21
 B^Mark^Name an Aramaic word Mark keeps in his Gospel^Mark keeps Jesus' own Aramaic words, like “Talitha koum” — “Little girl, I say to you, get up” (Mark 5:41).^Talitha koum|Talitha cumi~1~Mark 5:41;Abba~1~Mark 14:36;Ephphatha~2~Mark 7:34;Eloi, Eloi, lema sabachthani|Eloi~2~Mark 15:34;Golgotha~2~Mark 15:22;Corban~3~Mark 7:11;Boanerges~3~Mark 3:17;Rabboni~3~Mark 10:51;Hosanna~3~Mark 11:9;Amen~4~Mark 3:28
 B^Luke^Name a parable found only in Luke^The Good Samaritan and the Prodigal Son both appear only in Luke.^Good Samaritan~1~Luke 10:30–37;Prodigal son|Lost son~1~Luke 15:11–32;Lost coin~2~Luke 15:8–10;Rich fool~2~Luke 12:16–21;Rich man and Lazarus~2~Luke 16:19–31;Pharisee and the tax collector~2~Luke 18:9–14;Persistent widow|Unjust judge~2~Luke 18:1–8;Shrewd manager|Unjust steward~3~Luke 16:1–8;Friend at midnight~3~Luke 11:5–8;Barren fig tree~3~Luke 13:6–9;Two debtors~4~Luke 7:41–43;Tower builder|Counting the cost~4~Luke 14:28–30;Minas~5~Luke 19:11–27;Unworthy servants~5~Luke 17:7–10
 B^Luke^Name someone in Luke's birth stories (Luke 1–2)^Zechariah was struck silent until baby John was named (Luke 1:20, 63–64).^Mary~1~Luke 1:27;Joseph~1~Luke 1:27;Elizabeth~1~Luke 1:5;Gabriel~1~Luke 1:26;Shepherds~1~Luke 2:8;Zechariah|Zacharias~2~Luke 1:5;John the Baptist~2~Luke 1:57–63;Simeon~3~Luke 2:25;Anna~3~Luke 2:36;Caesar Augustus|Augustus~3~Luke 2:1;Quirinius~4~Luke 2:2;Herod~4~Luke 1:5;Phanuel~6~Luke 2:36;Abijah~6~Luke 1:5
 B^Luke^Name an event or person found only in Luke^Only Luke records the twelve-year-old Jesus staying behind in the temple (Luke 2:41–52).^Zacchaeus~1~Luke 19:1–10;Road to Emmaus|Emmaus~1~Luke 24:13–35;Ten lepers~2~Luke 17:11–19;Martha and Mary's dinner|Martha distracted~2~Luke 10:38–42;Boy Jesus in the temple~2~Luke 2:41–52;Shepherds at the manger~2~Luke 2:15–16;Thief on the cross repents|Repentant thief~2~Luke 23:40–43;Widow of Nain's son~3~Luke 7:11–15;Simeon and Anna~3~Luke 2:25–38;Healing the ear of the high priest's servant~3~Luke 22:51;Jesus sent to Herod~4~Luke 23:7;Sweat like drops of blood~4~Luke 22:44;Woman bent over for 18 years~4~Luke 13:10–13;Man with dropsy~5~Luke 14:1–4
 B^John^Name one of Jesus' “I am” sayings in John^John records seven “I am” sayings with pictures, from bread of life to true vine.^Bread of life~1~John 6:35;Light of the world~1~John 8:12;Good shepherd~1~John 10:11;The way, the truth and the life|Way truth life~1~John 14:6;Resurrection and the life~1~John 11:25;True vine|Vine~1~John 15:1;Door|Gate|Door of the sheep~2~John 10:9;Before Abraham was, I am|I am~3~John 8:58
-B^John^Name one of the signs in John's Gospel^John calls water into wine at Cana “the first of the signs” (John 2:11).^Water into wine~1~John 2:1–11;Feeding the 5,000~1~John 6:1–14;Raising Lazarus~1~John 11:43–44;Walking on water~2~John 6:19;Healing at the pool of Bethesda~2~John 5:1–9;Healing the man born blind~2~John 9:1–7;Healing the official's son~3~John 4:46–54;Catch of 153 fish~4~John 21:11
+B^John^Name one of the signs in John's Gospel^John calls water into wine at Cana “the first of the signs” (John 2:11).^Water into wine|Turning water into wine~1~John 2:1–11;Feeding the 5,000|Feeding the 5000|5000|Five loaves and two fish|Loaves and fishes~1~John 6:1–14;Raising Lazarus~1~John 11:43–44;Walking on water~2~John 6:19;Healing at the pool of Bethesda~2~John 5:1–9;Healing the man born blind~2~John 9:1–7;Healing the official's son~3~John 4:46–54;Catch of 153 fish~4~John 21:11
 B^John^Name a person in John's Gospel^Nicodemus came to Jesus at night, later defended him, and helped bury him with about 75 pounds of spices (John 3; 7:50; 19:39).^Jesus~1~John 1:29;John the Baptist~1~John 1:6;Peter~1~John 1:42;Lazarus~1~John 11:1;Nicodemus~1~John 3:1;Woman at the well|Samaritan woman~1~John 4:7;Mary~2~John 11:2;Martha~2~John 11:1;Thomas~2~John 20:24;Andrew~2~John 1:40;Philip~2~John 1:43;Judas~2~John 13:26;Pilate~2~John 18:29;Mary Magdalene~2~John 20:1;Nathanael~3~John 1:45;Caiaphas~3~John 11:49;Malchus~3~John 18:10;Joseph of Arimathea~3~John 19:38;Beloved disciple~3~John 13:23;Man born blind~3~John 9:1;Annas~4~John 18:13;Barabbas~4~John 18:40;Mary the wife of Clopas~5~John 19:25;Judas (not Iscariot)~6~John 14:22
 B^John^Name a place in John's Gospel^The pool of Bethesda had five covered colonnades (John 5:2).^Cana~1~John 2:1;Jerusalem~1~John 2:13;Galilee~1~John 1:43;Bethany~2~John 11:1;Samaria|Sychar~2~John 4:4;Pool of Bethesda~2~John 5:2;Sea of Tiberias|Sea of Galilee~2~John 21:1;Jacob's well~2~John 4:6;Pool of Siloam~3~John 9:7;Capernaum~3~John 2:12;Golgotha~3~John 19:17;Garden|Kidron Valley~4~John 18:1;Bethsaida~4~John 1:44;Solomon's Colonnade~5~John 10:23;Stone Pavement|Gabbatha~5~John 19:13;Aenon near Salim~6~John 3:23;Ephraim~6~John 11:54
 B^Acts^Name a person in Acts^Eutychus fell asleep during Paul's long sermon, fell from a third-storey window — and was raised (Acts 20:9–12).^Paul|Saul~1~Acts 13:9;Peter~1~Acts 1:15;Stephen~1~Acts 6:5;Barnabas~1~Acts 4:36;Philip~2~Acts 8:5;Silas~2~Acts 15:22;Timothy~2~Acts 16:1;Cornelius~2~Acts 10:1;Lydia~2~Acts 16:14;Ananias~2~Acts 5:1;Sapphira~2~Acts 5:1;Priscilla~2~Acts 18:2;Aquila~2~Acts 18:2;Ethiopian eunuch~2~Acts 8:27;Apollos~3~Acts 18:24;Eutychus~3~Acts 20:9;Dorcas|Tabitha~3~Acts 9:36;Simon the sorcerer|Simon Magus~3~Acts 8:9;Gamaliel~3~Acts 5:34;Felix~3~Acts 23:24;Festus~3~Acts 24:27;Agrippa~3~Acts 25:13;Rhoda~3~Acts 12:13;John Mark|Mark~3~Acts 12:12;Matthias~3~Acts 1:26;James~3~Acts 15:13;Herod~3~Acts 12:1;Agabus~4~Acts 11:28;Simon the tanner~4~Acts 9:43;Theophilus~4~Acts 1:1;Bernice~5~Acts 25:13;Drusilla~5~Acts 24:24;Dionysius~5~Acts 17:34;Damaris~5~Acts 17:34;Sergius Paulus~5~Acts 13:7;Elymas|Bar-Jesus~5~Acts 13:8;Jason~5~Acts 17:5;Julius~5~Acts 27:1;Publius~5~Acts 28:7;Claudius Lysias|Lysias~5~Acts 23:26;Demetrius~5~Acts 19:24;Sosthenes~5~Acts 18:17;Crispus~5~Acts 18:8;Aeneas~5~Acts 9:33;Tertullus~6~Acts 24:1;Joseph Barsabbas|Justus~6~Acts 1:23
@@ -1383,6 +1419,7 @@ B^Revelation^Name something from John's visions in Revelation^Each of the New Je
 B^Revelation^Name a precious stone or material in the New Jerusalem^The New Jerusalem's walls rest on twelve foundations, each a different precious stone (Revelation 21:19–20).^Gold~1~Revelation 21:18;Pearl~1~Revelation 21:21;Jasper~1~Revelation 21:19;Sapphire~1~Revelation 21:19;Emerald~1~Revelation 21:19;Topaz~2~Revelation 21:20;Amethyst~2~Revelation 21:20;Chalcedony~3~Revelation 21:19;Sardonyx|Onyx~3~Revelation 21:20;Carnelian|Sardius~3~Revelation 21:20;Chrysolite~4~Revelation 21:20;Beryl~4~Revelation 21:20;Chrysoprase~4~Revelation 21:20;Jacinth~4~Revelation 21:20
 B^Revelation^Name a title of Jesus in Revelation^“I am the Alpha and the Omega, the First and the Last, the Beginning and the End” (Revelation 22:13).^The Lamb~1~Revelation 5:6;Alpha and Omega~1~Revelation 22:13;Lion of the tribe of Judah~1~Revelation 5:5;King of kings~1~Revelation 19:16;Lord of lords~1~Revelation 19:16;Faithful and True~2~Revelation 19:11;Word of God~2~Revelation 19:13;Bright and Morning Star|Morning star~2~Revelation 22:16;First and the Last~2~Revelation 1:17;The Beginning and the End~2~Revelation 22:13;Root of David~3~Revelation 5:5;Faithful witness~3~Revelation 1:5;Firstborn from the dead~3~Revelation 1:5;The Amen~3~Revelation 3:14;Son of Man~3~Revelation 1:13;Ruler of the kings of the earth~4~Revelation 1:5;The Holy One~4~Revelation 3:7
 B@2026-11-26^Matthew^Name a person in Matthew's account of Jesus' death and resurrection (Matthew 26–28)^In Matthew 27:19 Pilate's wife sent him a warning about Jesus after suffering “many things this day in a dream” (KJV).^Judas Iscariot|Judas~1~Matthew 26:14;Pontius Pilate|Pilate~1~Matthew 27:2;Peter|Simon Peter~1~Matthew 26:69;Barabbas~2~Matthew 27:16;Caiaphas|Caiaphas the high priest~2~Matthew 26:57;Mary Magdalene~2~Matthew 27:56;Simon of Cyrene~2~Matthew 27:32;Joseph of Arimathaea|Joseph of Arimathea~2~Matthew 27:57;Pilate's wife|Wife of Pilate~3~Matthew 27:19;The centurion|Centurion~3~Matthew 27:54;The sons of Zebedee|Sons of Zebedee|James and John~3~Matthew 26:37;The angel of the Lord|Angel~3~Matthew 28:2;Simon the leper~4~Matthew 26:6;The woman with the alabaster box|Woman with the alabaster box|Woman with the alabaster jar~4~Matthew 26:7;The damsel|Damsel|Servant girl|Maid~4~Matthew 26:69;Mary the mother of James and Joses|The other Mary~4~Matthew 27:56;Servant of the high priest|Malchus~5~Matthew 26:51;Mother of Zebedee's children|Mother of James and John|Mother of the sons of Zebedee~5~Matthew 27:56;Elias|Elijah~5~Matthew 27:47;Jeremy the prophet|Jeremy|Jeremiah~6~Matthew 27:9
+B@2026-11-28^Acts^Name a place on Paul's voyage to Rome (Acts 27–28)^Paul's ship ran aground on Melita (Malta), yet all 276 people on board “escaped all safe to land” (Acts 27:37–44, KJV).^Rome~1~Acts 28:16~The voyage ended there, where Paul lived under guard;Melita|Malta~1~Acts 28:1~The island where the ship was wrecked;Crete~2~Acts 27:7~They sailed under its lee;Italy~2~Acts 27:1~The voyage was decided for Italy;Cyprus~3~Acts 27:4~They sailed under it because the winds were contrary;Sidon~3~Acts 27:3~Julius let Paul visit his friends there;Alexandria~3~Acts 27:6~Both ships Paul boarded at Myra and Malta came from there;Syracuse~4~Acts 28:12~They stayed there three days;Fair Havens|The fair havens~4~Acts 27:8~Paul warned them not to sail on from there;Puteoli~5~Acts 28:13~Brothers there asked Paul to stay seven days;Myra~5~Acts 27:5~A city of Lycia where they changed ships;Cnidus|Knidos~5~Acts 27:7~The wind kept them from making headway past it;Rhegium~5~Acts 28:13~A stop on the Italian coast after Syracuse;Three Taverns|The three taverns~5~Acts 28:15~Believers from Rome came out to meet Paul there;Appii forum|Forum of Appius|Appius Forum~5~Acts 28:15~Believers came as far as this market town to meet Paul;Adria|Sea of Adria|Adriatic Sea|Adriatic~5~Acts 27:27~They drifted there for fourteen nights;Phenice|Phoenix~6~Acts 27:12~The harbour of Crete they hoped to winter in;Clauda|Cauda~6~Acts 27:16~They secured the lifeboat under this small island;Lasea~6~Acts 27:8~A city near Fair Havens on Crete;Adramyttium~6~Acts 27:2~Paul's first ship came from this port
 
 // ===== WHOLE BIBLE (mixed mode only) =====
 B^*^Name a book of the Bible^The Protestant Bible has 66 books: 39 in the Old Testament and 27 in the New.^Genesis~1~Genesis 1:1;Exodus~1~Exodus 1:1;Psalms~1~Psalm 1:1;Proverbs~1~Proverbs 1:1;Matthew~1~Matthew 1:1;Mark~1~Mark 1:1;Luke~1~Luke 1:1;John~1~John 1:1;Acts~1~Acts 1:1;Romans~1~Romans 1:1;Revelation~1~Revelation 1:1;Leviticus~2~Leviticus 1:1;Numbers~2~Numbers 1:1;Deuteronomy~2~Deuteronomy 1:1;Joshua~2~Joshua 1:1;Judges~2~Judges 1:1;Ruth~2~Ruth 1:1;Esther~2~Esther 1:1;Job~2~Job 1:1;Isaiah~2~Isaiah 1:1;Daniel~2~Daniel 1:1;Jonah~2~Jonah 1:1;1 Corinthians|First Corinthians|Corinthians~2~1 Corinthians 1:1;Galatians~2~Galatians 1:1;Ephesians~2~Ephesians 1:1;Hebrews~2~Hebrews 1:1;James~2~James 1:1;1 Samuel|First Samuel|Samuel~3~1 Samuel 1:1;2 Samuel|Second Samuel~3~2 Samuel 1:1;1 Kings|First Kings|Kings~3~1 Kings 1:1;2 Kings|Second Kings~3~2 Kings 1:1;Nehemiah~3~Nehemiah 1:1;Ecclesiastes~3~Ecclesiastes 1:1;Song of Songs|Song of Solomon~3~Song of Songs 1:1;Jeremiah~3~Jeremiah 1:1;Ezekiel~3~Ezekiel 1:1;2 Corinthians|Second Corinthians~3~2 Corinthians 1:1;Philippians~3~Philippians 1:1;Colossians~3~Colossians 1:1;1 Peter|First Peter|Peter~3~1 Peter 1:1;1 John|First John~3~1 John 1:1;1 Chronicles|First Chronicles|Chronicles~4~1 Chronicles 1:1;2 Chronicles|Second Chronicles~4~2 Chronicles 1:1;Ezra~4~Ezra 1:1;Lamentations~4~Lamentations 1:1;Hosea~4~Hosea 1:1;Joel~4~Joel 1:1;Amos~4~Amos 1:1;Micah~4~Micah 1:1;Zechariah~4~Zechariah 1:1;Malachi~4~Malachi 1:1;1 Thessalonians|First Thessalonians|Thessalonians~4~1 Thessalonians 1:1;1 Timothy|First Timothy|Timothy~4~1 Timothy 1:1;2 Timothy|Second Timothy~4~2 Timothy 1:1;Titus~4~Titus 1:1;2 Peter|Second Peter~4~2 Peter 1:1;Jude~4~Jude 1:1;2 Thessalonians|Second Thessalonians~5~2 Thessalonians 1:1;Philemon~5~Philemon 1:1;2 John|Second John~5~2 John 1:1;3 John|Third John~5~3 John 1:1;Obadiah~5~Obadiah 1:1;Nahum~5~Nahum 1:1;Habakkuk~5~Habakkuk 1:1;Zephaniah~5~Zephaniah 1:1;Haggai~5~Haggai 1:1
@@ -1401,7 +1438,7 @@ B^*^Name a tree or plant in the Bible^Noah's ark was made of “gopher wood” �
 B^*^Name an angel or spiritual being named in the Bible^Gabriel and Michael are the only two good angels named in the Protestant Bible.^Gabriel~1~Luke 1:19;Michael~1~Jude 1:9;Satan|The devil~1~Job 1:6;Lucifer~2~Isaiah 14:12;Seraphim~2~Isaiah 6:2;Cherubim~2~Genesis 3:24;Beelzebub|Beelzebul~3~Matthew 12:24;Legion~4~Mark 5:9;Abaddon|Apollyon~4~Revelation 9:11
 
 // ===== BIBLE CHARACTERS =====
-C^Jesus^Name a miracle of Jesus^John says that if everything Jesus did were written down, the world could not hold the books (John 21:25).^Water into wine~1~John 2:1–11~His first sign, at a wedding in Cana;Feeding the 5,000|Feeding the 5000|5000|Feeding the five thousand|Loaves and fishes~1~John 6:1–14~The only miracle besides the resurrection told in all four Gospels;Walking on water~1~Matthew 14:25~Peter briefly walked on the water to him too;Raising Lazarus~1~John 11:43–44~Lazarus had been dead four days;Calming the storm~1~Mark 4:39~He had been asleep on a cushion in the stern;Healing the blind|Blind man~1~John 9:1–7~He sent the man born blind to wash in the Pool of Siloam;Healing ten lepers|Ten lepers~2~Luke 17:11–19~Only one came back to thank him, and he was a Samaritan;Healing the paralytic~2~Mark 2:3–12~Four friends lowered the man through the roof;Raising Jairus's daughter~2~Mark 5:41–42~He said “Talitha koum” — little girl, get up;Woman with the issue of blood~2~Mark 5:25–34~She had been bleeding for twelve years;Legion|Demons sent into pigs~2~Mark 5:1–20~The demons were sent into a herd of about 2,000 pigs;Healing the centurion's servant~2~Matthew 8:5–13~Jesus said he had not found such great faith in Israel;Miraculous catch of fish|Catch of fish~2~Luke 5:4–7~The nets began to break and Peter fell at his knees;Healing blind Bartimaeus~2~Mark 10:46–52~Bartimaeus threw off his cloak and came to Jesus;The Resurrection~2~Matthew 28:5–6~He rose on the third day, just as he said;Feeding the 4,000|Feeding the 4000|4000~3~Mark 8:1–9~Seven loaves fed the crowd, with seven basketfuls left;Coin in the fish's mouth~3~Matthew 17:27~The coin paid the temple tax for Jesus and Peter;Raising the widow's son at Nain~3~Luke 7:11–15~Jesus touched the coffin and stopped the funeral;Healing Malchus's ear~3~Luke 22:50–51~His last healing before the cross;Cursing the fig tree~3~Mark 11:12–14~By the next morning it had withered from the roots;Healing Peter's mother-in-law~3~Mark 1:30–31~The fever left her and she began to serve them;Healing the man at the pool of Bethesda~3~John 5:1–9~The man had been ill for 38 years;Healing the man with the withered hand~3~Mark 3:1–5~He healed it on the Sabbath, in a synagogue;Healing the deaf and mute man~4~Mark 7:32–35~Jesus said “Ephphatha” — be opened;Healing the official's son~4~John 4:46–54~He healed the boy at a distance, with a word spoken in Cana;Healing the woman bent over~4~Luke 13:10–13~She had been bent over for eighteen years;Syrophoenician woman's daughter~4~Mark 7:25–30~“Even the dogs eat the children's crumbs,” she answered;Healing the boy with seizures~4~Mark 9:17–27~His father cried, “I believe, help my unbelief”;Healing the man with dropsy~5~Luke 14:1–4~He healed the man on the Sabbath at a Pharisee's house
+C^Jesus^Name a miracle of Jesus^John says that if everything Jesus did were written down, the world could not hold the books (John 21:25).^Water into wine|Turning water into wine~1~John 2:1–11~His first sign, at a wedding in Cana;Feeding the 5,000|Feeding the 5000|5000|Feeding the five thousand|Five loaves and two fish|Loaves and fishes~1~John 6:1–14~The only miracle besides the resurrection told in all four Gospels;Walking on water~1~Matthew 14:25~Peter briefly walked on the water to him too;Raising Lazarus~1~John 11:43–44~Lazarus had been dead four days;Calming the storm~1~Mark 4:39~He had been asleep on a cushion in the stern;Healing the blind|Blind man~1~John 9:1–7~He sent the man born blind to wash in the Pool of Siloam;Healing ten lepers|Ten lepers~2~Luke 17:11–19~Only one came back to thank him, and he was a Samaritan;Healing the paralytic~2~Mark 2:3–12~Four friends lowered the man through the roof;Raising Jairus's daughter~2~Mark 5:41–42~He said “Talitha koum” — little girl, get up;Woman with the issue of blood~2~Mark 5:25–34~She had been bleeding for twelve years;Legion|Demons sent into pigs~2~Mark 5:1–20~The demons were sent into a herd of about 2,000 pigs;Healing the centurion's servant~2~Matthew 8:5–13~Jesus said he had not found such great faith in Israel;Miraculous catch of fish|Catch of fish~2~Luke 5:4–7~The nets began to break and Peter fell at his knees;Healing blind Bartimaeus~2~Mark 10:46–52~Bartimaeus threw off his cloak and came to Jesus;The Resurrection~2~Matthew 28:5–6~He rose on the third day, just as he said;Feeding the 4,000|Feeding the 4000|4000|Seven loaves and a few fish~3~Mark 8:1–9~Seven loaves fed the crowd, with seven basketfuls left;Coin in the fish's mouth~3~Matthew 17:27~The coin paid the temple tax for Jesus and Peter;Raising the widow's son at Nain~3~Luke 7:11–15~Jesus touched the coffin and stopped the funeral;Healing Malchus's ear~3~Luke 22:50–51~His last healing before the cross;Cursing the fig tree~3~Mark 11:12–14~By the next morning it had withered from the roots;Healing Peter's mother-in-law~3~Mark 1:30–31~The fever left her and she began to serve them;Healing the man at the pool of Bethesda~3~John 5:1–9~The man had been ill for 38 years;Healing the man with the withered hand~3~Mark 3:1–5~He healed it on the Sabbath, in a synagogue;Healing the deaf and mute man~4~Mark 7:32–35~Jesus said “Ephphatha” — be opened;Healing the official's son~4~John 4:46–54~He healed the boy at a distance, with a word spoken in Cana;Healing the woman bent over~4~Luke 13:10–13~She had been bent over for eighteen years;Syrophoenician woman's daughter~4~Mark 7:25–30~“Even the dogs eat the children's crumbs,” she answered;Healing the boy with seizures~4~Mark 9:17–27~His father cried, “I believe, help my unbelief”;Healing the man with dropsy~5~Luke 14:1–4~He healed the man on the Sabbath at a Pharisee's house
 C^Jesus^Name a parable of Jesus^Mark says Jesus “did not say anything to them without using a parable” (Mark 4:34).^Prodigal son~1~Luke 15:11–32~The father ran to meet his returning son;Good Samaritan~1~Luke 10:30–37~Told to answer the question “Who is my neighbour?”;Sower~1~Matthew 13:3–9~Seed fell on the path, rocks, thorns and good soil;Lost sheep~1~Luke 15:4–7~The shepherd leaves the ninety-nine to find the one;Talents~1~Matthew 25:14–30~“Well done, good and faithful servant”;Mustard seed~1~Matthew 13:31–32~The smallest seed grows into a tree where birds nest;Wise and foolish builders~2~Matthew 7:24–27~It closes the Sermon on the Mount;Ten virgins~2~Matthew 25:1–13~Five brought extra oil and five did not;Lost coin~2~Luke 15:8–10~She lit a lamp and swept the house until she found it;Pearl of great price~2~Matthew 13:45–46~The merchant sold everything he had to buy it;Hidden treasure~3~Matthew 13:44~The man sold all he had to buy the field;Rich fool~3~Luke 12:16–21~“This very night your life will be demanded from you”;Wheat and tares|Wheat and weeds~3~Matthew 13:24–30~Both grow together until the harvest;Unforgiving servant~3~Matthew 18:23–35~Told after Peter asked how many times to forgive;Workers in the vineyard~3~Matthew 20:1–16~The last workers hired were paid the same as the first;Persistent widow~3~Luke 18:1–8~Told so that people would always pray and not give up;Pharisee and the tax collector~3~Luke 18:9–14~“God, have mercy on me, a sinner”;Rich man and Lazarus~3~Luke 16:19–31~Lazarus is the only parable character Jesus names;Sheep and goats~3~Matthew 25:31–46~“Whatever you did for the least of these, you did for me”;Wedding feast|Great banquet~3~Matthew 22:1–14~One guest came without wedding clothes;Yeast|Leaven~3~Matthew 13:33~A little yeast works through the whole batch of dough;Wicked tenants~4~Mark 12:1–12~The tenants killed the owner's son;Barren fig tree~4~Luke 13:6–9~The gardener asked for one more year;Two sons~4~Matthew 21:28–32~One son said no but went, the other said yes but didn't;Shrewd manager~4~Luke 16:1–8~It ends with “You cannot serve both God and money”;Friend at midnight~4~Luke 11:5–8~The friend's shameless persistence gets him the bread;Lamp under a basket|Lamp~4~Matthew 5:15~A lamp belongs on a stand, giving light to everyone;New wine in old wineskins~4~Mark 2:22~New wine bursts old wineskins;Growing seed~5~Mark 4:26–29~Found only in Mark — the seed grows while the farmer sleeps;Net~5~Matthew 13:47–50~The good fish are kept and the bad thrown away;Two debtors~5~Luke 7:41–43~Told at the house of Simon the Pharisee;Minas~5~Luke 19:11–27~Each servant was given one mina to put to work;Faithful servant~5~Matthew 24:45–51~The master returns when least expected;Tower builder~5~Luke 14:28–30~Count the cost before you build;Unworthy servants~6~Luke 17:7–10~“We have only done our duty”;Strong man~6~Mark 3:27~First tie up the strong man, then plunder his house
 C^Jesus^Name a title or name of Jesus^“Immanuel” means “God with us” (Matthew 1:23).^Jesus|Yeshua~1~Matthew 1:21~The name means “the LORD saves”;Christ|Messiah~1~Matthew 16:16~Greek for Messiah, “the anointed one”;Lamb of God~1~John 1:29~John the Baptist's words when he saw Jesus coming;Son of God~1~Mark 1:1~The opening line of Mark's Gospel;Son of Man~1~Mark 10:45~Jesus' favourite way of speaking about himself;Lord~1~Philippians 2:11~Every tongue will confess it;Saviour|Savior~1~Luke 2:11~Announced by the angel to the shepherds;King of kings~1~Revelation 19:16~Written on his robe and on his thigh;Prince of Peace~1~Isaiah 9:6~One of four names in Isaiah's prophecy;Immanuel|Emmanuel~1~Matthew 1:23~It means “God with us”;Good Shepherd~2~John 10:11~He lays down his life for the sheep;Alpha and Omega~2~Revelation 22:13~The first and last letters of the Greek alphabet;Light of the world~2~John 8:12~Said at the Feast of Tabernacles;Bread of life~2~John 6:35~Said the day after feeding the 5,000;The Word|Logos~2~John 1:1~“In the beginning was the Word”;Lion of Judah~2~Revelation 5:5~The one worthy to open the scroll;Rabbi|Teacher~2~John 1:38~It means “teacher”;Son of David~2~Matthew 9:27~The cry of two blind men;Wonderful Counsellor~2~Isaiah 9:6~From Isaiah's “unto us a child is born”;Mighty God~2~Isaiah 9:6~From Isaiah's “unto us a child is born”;Lord of lords~2~Revelation 19:16~Paired with King of kings;I Am~2~John 8:58~“Before Abraham was, I am” echoes God's name to Moses;Redeemer~2~Job 19:25~“I know that my Redeemer lives”;Bright Morning Star~3~Revelation 22:16~Jesus' own words near the end of the Bible;Cornerstone~3~Ephesians 2:20~The stone the whole building rests on;Everlasting Father~3~Isaiah 9:6~From Isaiah's “unto us a child is born”;High Priest~3~Hebrews 4:14~He has gone through the heavens;Bridegroom~3~Mark 2:19~Why his disciples did not fast while he was with them;Jesus of Nazareth|Nazarene~3~John 19:19~Written on the sign above the cross;True Vine~3~John 15:1~“I am the vine, you are the branches”;Resurrection and the life~3~John 11:25~Said to Martha before raising Lazarus;Friend of sinners~3~Matthew 11:19~Meant as an insult by his critics;Mediator~4~1 Timothy 2:5~One mediator between God and mankind;Advocate~4~1 John 2:1~He speaks to the Father in our defence;Last Adam~4~1 Corinthians 15:45~Paul contrasts him with the first Adam;Author and finisher of our faith~4~Hebrews 12:2~We fix our eyes on him;Rabboni~4~John 20:16~Mary Magdalene's word at the empty tomb;Root of Jesse~4~Isaiah 11:10~Jesse was David's father;Servant~4~Matthew 12:18~Matthew quotes Isaiah's servant song about him;Holy One of God~4~Mark 1:24~Said by an unclean spirit in Capernaum;Dayspring~5~Luke 1:78~Zechariah's song calls him the rising sun from on high;The Amen~5~Revelation 3:14~His title in the letter to Laodicea;Author of life~5~Acts 3:15~Peter's words after healing the lame man;Firstborn of all creation~5~Colossians 1:15~He is the image of the invisible God;Branch~5~Zechariah 6:12~“The man whose name is the Branch”
 C^Jesus^Name a place Jesus went during his life^Jesus grew up in Nazareth but made Capernaum his base in Galilee (Matthew 4:13).^Bethlehem~1~Luke 2:4–7~He was born in David's town;Nazareth~1~Luke 2:51~He grew up here and was called a Nazarene;Jerusalem~1~Luke 19:41~He wept over the city;Galilee~1~Mark 1:14~He began preaching here;Sea of Galilee~1~Matthew 4:18~He called his first fishermen on its shore;Gethsemane|Garden of Gethsemane~1~Matthew 26:36~He prayed here the night before the cross;Golgotha|Calvary~1~John 19:17~The name means “place of the skull”;Capernaum~2~Matthew 4:13~His base during the Galilean ministry;Cana~2~John 2:1~Site of his first sign;Bethany~2~John 12:1~Home of Mary, Martha and Lazarus;Egypt~2~Matthew 2:14~His family fled here when he was a baby;Jordan River~2~Matthew 3:13~He was baptised here by John;Samaria~2~John 4:4~He met the woman at the well here;Mount of Olives~2~Luke 22:39~He often went there to pray;Jericho~2~Luke 19:1~He met Zacchaeus here;Temple~2~Luke 2:46~He was found there at age twelve;Wilderness|Desert~2~Matthew 4:1~He fasted forty days and was tempted;Bethsaida~3~Mark 8:22~He healed a blind man here in two stages;Caesarea Philippi~3~Matthew 16:13~Peter confessed him as the Christ here;Emmaus~3~Luke 24:13~He was recognised in the breaking of bread;Tyre~4~Mark 7:24~He met the Syrophoenician woman in this region;Sidon~4~Mark 7:31~He passed through on his way back to Galilee;Decapolis~4~Mark 7:31~The “Ten Cities” region east of the Jordan;Gadara|Gerasa~4~Matthew 8:28~He freed two demon-possessed men here;Nain~4~Luke 7:11~He raised a widow's only son;Sychar~4~John 4:5~The town near Jacob's well;Bethphage~4~Matthew 21:1~He sent for the donkey from here;Chorazin~5~Matthew 11:21~He warned it for not repenting after his miracles
@@ -1466,5 +1503,6 @@ C^Daughters of Zelophehad^Name something from the daughters of Zelophehad's stor
 C@2026-11-25!1u0n18t^Daughters of Zelophehad^Name a person in the story of the daughters of Zelophehad^Numbers 27:1 traces the five sisters back through Zelophehad, Hepher, Gilead, Machir and Manasseh to Joseph.^Moses~1~Numbers 27:2~They brought their case to him;The Lord|God~1~Numbers 27:6–7~Told Moses the daughters spoke right;Zelophehad~1~Numbers 27:1~Their father, who died with no sons;Mahlah~1~Numbers 27:1~Listed first of the five sisters;Noah|Noa~1~Numbers 27:1~One of the five sisters;Hoglah~2~Numbers 27:1~One of the five sisters;Milcah|Milkah~2~Numbers 27:1~One of the five sisters;Tirzah~2~Numbers 27:1~Shares her name with a later capital city;Eleazar the priest|Eleazar~2~Numbers 27:2~Stood with Moses at the tabernacle door;Manasseh~2~Numbers 27:1~Their tribe's ancestor;Joseph~2~Numbers 27:1~The patriarch of their family line;Joshua~3~Joshua 17:4~They claimed their land before him;The princes|Leaders~4~Numbers 27:2~Heard their case with Moses;Korah~4~Numbers 27:3~Their father was not in his rebellion;Gilead~5~Numbers 27:1~Son of Machir;Hepher~5~Numbers 27:1~Their grandfather;Machir|Makir~5~Numbers 27:1~Son of Manasseh;Their cousins|Their father's brothers' sons~5~Numbers 36:11~They married their father's brothers' sons
 C@2026-11-26^Joseph^Name a place in Joseph's story^Joseph's bones were carried up out of Egypt and buried at Shechem (Joshua 24:32).^Egypt|Land of Egypt~1~Genesis 37:28~The Ishmeelites who bought him carried him into Egypt;Canaan|Land of Canaan~1~Genesis 37:1~His father Jacob's home, where Joseph grew up;The pit|Pit|Well|Cistern~1~Genesis 37:24~His brothers threw him into an empty pit;Prison|The prison|Jail|Dungeon~1~Genesis 39:20~Potiphar put him in the king's prison;Potiphar's house|Potiphar's household~2~Genesis 39:1–2~Sold as a slave, he prospered in Potiphar's house;Goshen|Land of Goshen~2~Genesis 45:10~The land he invited his family to settle;Shechem~3~Genesis 37:12~His brothers were feeding the flock there when Jacob sent him;Dothan~3~Genesis 37:17~Where he found his brothers, who then sold him;Hebron|Vale of Hebron~3~Genesis 37:14~Jacob sent him out from the vale of Hebron;Gilead~4~Genesis 37:25~The Ishmeelite caravan that bought him came from Gilead;Beersheba|Beer-sheba~4~Genesis 46:1~Jacob offered sacrifices here on the way to Joseph;Machpelah|Cave of Machpelah~4~Genesis 50:13~Joseph and his brothers buried Jacob in this cave;On|Heliopolis~5~Genesis 41:45~His father-in-law Poti-pherah was priest of On;Rameses|Land of Rameses~5~Genesis 47:11~He gave his family land in Rameses, the best of Egypt;Atad|Threshingfloor of Atad~6~Genesis 50:10~He mourned his father there for seven days
 C@2026-11-27^Moses^Name a place in Moses' story^Moses saw the promised land from the top of Pisgah but died in Moab (Deuteronomy 34:1–5).^Egypt|Land of Egypt~1~Exodus 2:23~Born there, he later led Israel out of it;Red Sea~1~Exodus 15:4~Pharaoh's army drowned there after Israel crossed;Mount Sinai|Sinai~1~Exodus 19:20~God came down on the mount and called Moses up;Midian|Land of Midian~2~Exodus 2:15~He fled there from Pharaoh;Horeb|Mount Horeb|Mountain of God~2~Exodus 3:1~He saw the burning bush there;Canaan|Land of Canaan|Promised land~2~Exodus 6:4~The land God promised, which Moses only saw;Mount Nebo|Nebo|Pisgah~2~Deuteronomy 34:1~He viewed the promised land from its top;Moab|Land of Moab~2~Deuteronomy 34:5~Where Moses died and was buried;Goshen|Land of Goshen~3~Exodus 9:26~The only place spared from the hail;Jordan|River Jordan|Jordan River~3~Deuteronomy 3:27~God told him he would not cross it;The river|Nile|River Nile~3~Exodus 2:3~His mother hid baby Moses in reeds there;Marah~3~Exodus 15:23~He made the bitter water sweet with a tree;Rephidim~4~Exodus 17:1~He struck the rock there for water;Massah|Meribah|Massah and Meribah~4~Exodus 17:7~He named the place where Israel tested God;Elim~4~Exodus 15:27~Israel camped by twelve wells and seventy palms;Wilderness of Sin|Desert of Sin~4~Exodus 16:1~Where God first sent manna;Kadesh~5~Numbers 20:1~Where Miriam died and he struck the rock;Mount Hor|Hor~5~Numbers 20:22~Where he saw Aaron die;Rameses|Raamses~5~Exodus 12:37~The Exodus journey set out from there;Succoth~5~Exodus 12:37~Israel's first stop after leaving Rameses
+C@2026-11-28^David^Name an object from David's story^David took five smooth stones from the brook, but Goliath fell to the first one he slung (1 Samuel 17:40–49).^Sling~1~1 Samuel 17:40~He felled Goliath with a stone from it;Five smooth stones|Stones|Stone|Smooth stones~1~1 Samuel 17:40~He chose them from the brook to face Goliath;Harp|Lyre~1~1 Samuel 16:23~He played it to soothe Saul's troubled spirit;Goliath's sword|Sword of Goliath~2~1 Samuel 21:9~The priest at Nob gave it to him;Saul's armour|Saul's armor|Armour|Armor|Helmet|Coat of mail~2~1 Samuel 17:38~He tried it on but would not fight in it;Ark of the covenant|Ark|Ark of God|Ark of the Lord~2~2 Samuel 6:15~He brought it up to Jerusalem with shouting;Staff|Shepherd's staff|Rod~3~1 Samuel 17:40~He carried it out to meet Goliath;Horn of oil|Anointing oil|Oil~3~1 Samuel 16:13~Samuel anointed him with it among his brothers;Saul's spear|Spear|Javelin~3~1 Samuel 26:12~He took it from beside the sleeping Saul;Skirt of Saul's robe|Saul's robe|Corner of Saul's robe|Hem of Saul's robe~3~1 Samuel 24:4~He secretly cut it off in the cave;Linen ephod|Ephod~4~2 Samuel 6:14~He wore it while dancing before the Lord;Shepherd's bag|Scrip|Bag~4~1 Samuel 17:40~He put the five stones in it;Jonathan's robe|Jonathan's bow|Jonathan's sword|Jonathan's girdle~4~1 Samuel 18:4~Jonathan gave them to him in covenant friendship;Hallowed bread|Shewbread|Holy bread|Showbread|Bread of the presence~4~1 Samuel 21:6~The priest gave it to the hungry David;Crown|King's crown|Crown of Rabbah~4~2 Samuel 12:30~He took the Ammonite king's gold crown;Cruse of water|Jug of water|Water jug|Water jar~5~1 Samuel 26:12~He took it with Saul's spear as Saul slept;Image in the bed|Teraphim|Image|Household idol|Idol~5~1 Samuel 19:13~Michal laid it in his bed to fool Saul's men;Arrows|Arrow~5~1 Samuel 20:36~Jonathan's arrows warned him to flee Saul;Letter|Letter to Joab~5~2 Samuel 11:14~Uriah carried it to Joab, sealing his own death;Threshing floor|Threshingfloor|Altar|Araunah's threshing floor~5~2 Samuel 24:24~He bought it from Araunah to build an altar
 
 `;

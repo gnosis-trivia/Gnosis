@@ -71,17 +71,21 @@ function match(b,input){
 // with a word or two left out. Every meaningful word the player types must belong to the answer, so a
 // different name or object ("Moon turned to blood" vs "Water turned to blood") never counts.
 const SIM_VAR={thee:'you',thou:'you',ye:'you',thy:'your',thine:'your',hath:'has',hast:'has',doth:'does',dost:'does',saith:'say',said:'say',says:'say',spake:'speak',spoke:'speak',spoken:'speak',shalt:'will',shall:'will',wilt:'will',
- charity:'love',ghost:'spirit',affection:'mind',affections:'mind',minds:'mind',whatsoever:'whatever',whosoever:'whoever',
+ charity:'love',ghost:'spirit',affection:'mind',affections:'mind',minds:'mind',whatsoever:'whatever',fed:'feed',whosoever:'whoever',
  elias:'elijah',eliah:'elijah',esaias:'isaiah',jeremy:'jeremiah',jonas:'jonah',noe:'noah',osee:'hosea',sion:'zion',messias:'messiah',timotheus:'timothy',marcus:'mark',lucas:'luke',agar:'hagar',sara:'sarah',
  one:'1',two:'2',three:'3',four:'4',five:'5',six:'6',seven:'7',eight:'8',nine:'9',ten:'10',eleven:'11',twelve:'12',forty:'40',hundred:'100',thousand:'1000',first:'1st',second:'2nd',third:'3rd'};
 const SIM_STOP=new Set(['you','your','i','my','me','we','us','our','he','him','his','she','her','it','its','they','them','their','is','am','are','was','were','be','been','being','that','this','these','those','which','who','whom','will','would','o','oh','as','so','unto','to','at','into','upon','all','do','does','did','has','have','had','there','then','when','up','out']);
-const SIM_FILL=new Set(['like','many','very','also','even','just','about','some','thing','things','time','people','come','comes','cometh','came','go','goes','goeth','went','get','gets','really']);
+const SIM_FILL=new Set(['like','many','very','also','even','just','about','some','thing','things','time','people','come','comes','cometh','came','go','goes','goeth','went','get','gets','really','jesus']);
 function simStem(w,e){
  if(w.length>4){for(const x of ['eth','est','ing','ed','es','s'])if(w.endsWith(x)&&w.length-x.length>=3){w=w.slice(0,-x.length);break}}
  if(e&&w.length>3&&w.endsWith('e'))w=w.slice(0,-1);
  return w;
 }
-function simWords(s){return String(s).normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase().replace(/&/g,' and ').replace(/['’.]/g,'').replace(/[^a-z0-9]+/g,' ').trim().split(' ').map(w=>SIM_VAR[w]||w).filter(w=>w&&!STOP.has(w)&&!SIM_STOP.has(w))}
+function simWords(s){
+ const w=String(s).normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase().replace(/(\d),(?=\d{3}\b)/g,'$1').replace(/&/g,' and ').replace(/['’.]/g,'').replace(/[^a-z0-9]+/g,' ').trim().split(' ').map(w=>SIM_VAR[w]||w);
+ for(let i=0;i<w.length-1;i++)if(/^\d+$/.test(w[i])&&(w[i+1]==='1000'||w[i+1]==='100')){w[i]=String(+w[i]*+w[i+1]);w.splice(i+1,1)} // five thousand = 5000
+ return w.filter(x=>x&&!STOP.has(x)&&!SIM_STOP.has(x));
+}
 const SIM_FILLS=new Set([...SIM_FILL].map(w=>simStem(w,1)));
 function simToks(s){return [...new Set(simWords(s).map(w=>simStem(w,1)))]}
 function simEq(a,b){return a===b||(a.length>=5&&b.length>=5&&lev(a,b,1)<=1)}
